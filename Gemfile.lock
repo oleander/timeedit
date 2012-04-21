@@ -1,0 +1,40 @@
+PATH
+  remote: .
+  specs:
+    timeedit (0.0.1)
+      charlock_holmes
+      nokogiri
+      rest-client
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.7)
+    charlock_holmes (0.6.8)
+    crack (0.3.1)
+    diff-lcs (1.1.3)
+    mime-types (1.18)
+    nokogiri (1.5.2)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec (2.9.0)
+      rspec-core (~> 2.9.0)
+      rspec-expectations (~> 2.9.0)
+      rspec-mocks (~> 2.9.0)
+    rspec-core (2.9.0)
+    rspec-expectations (2.9.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.9.0)
+    vcr (2.1.0)
+    webmock (1.8.6)
+      addressable (>= 2.2.7)
+      crack (>= 0.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rspec
+  timeedit!
+  vcr
+  webmock (>= 1.8.0)

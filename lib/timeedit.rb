@@ -1,0 +1,10 @@
+require "rest-client"
+require "nokogiri"
+require "yaml"
+require "time"
+require "charlock_holmes/string"
+require "csv"
+
+require "timeedit/version"
+require "timeedit/rooms"
+require "timeedit/bookings"

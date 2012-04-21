@@ -1,0 +1,1738 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://web.timeedit.se/chalmers_se/db1/public/r.html?fe=0&h=t&objects=192324.186&ox=0&p=20120312.x,20120518.x&sid=3&types=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: The request has succeeded
+    headers:
+      Server:
+      - nginx/0.7.62
+      Date:
+      - Sat, 21 Apr 2012 14:23:54 GMT
+      Content-Type:
+      - text/html; charset=UTF-8
+      Transfer-Encoding:
+      - ''
+      - chunked
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"120-1490967495-1334675755668"'
+      Vary:
+      - Accept-Charset, Accept-Encoding, Accept-Language, Accept
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=3, post-check=1, pre-check=2
+      X-Timeedit-Search:
+      - 130ms
+      Content-Disposition:
+      - inline; filename="TimeEdit_4241D_2012-04-21_16_23.html"
+    body:
+      encoding: ASCII-8BIT
+      string: ! "<!DOCTYPE html>\n  <html>\n  <head>\n<meta name=\"robots\" content=\"noindex,
+        nofollow\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n<meta
+        http-equiv=\"Content-Style-Type\" content=\"text/css\">\n<meta http-equiv=\"Content-type\"
+        content=\"text/html;charset=UTF-8\">\n<meta id=\"iosviewport\" name = \"viewport\"
+        content = \"width = 480\"><title>TimeEdit Chalmers</title>\n<link rel=\"stylesheet\"
+        href=\"/static/201204171554233/css/min.css\" type=\"text/css\">\n<style type=\"text/css\">\n
+        \  #weekContainer, .text {\n      font-size:13px;\n   }\n\n  .weekDayHeader
+        { \n    border: 1px solid #656565;\n    border-bottom-width: 0px;\n    background-color:
+        #484848; \n    color: #CDCDCD; \n    width: 130px;\n    padding-bottom: 3px;
+        \n    padding-top: 4px; \n  }\n  \n  .weekDayHeaderFirst {\n    width: 150px;\n
+        \ }\n\n\n.weekDiv {\n    background-color: white;\n    text-align: left;\n
+        \   position: relative;\n    border-style: solid;\n    border-width: 1px;\n
+        \   border-color: #B0B0B0;\n    vertical-align: bottom;\n    margin-bottom:
+        3em;\n    width: 130px;\n    *float:left;\n}\n\n.weekDivGrey {\n   background-color:
+        #CCCCCC;\n}\n\n.weekDivFirst {\n    width: 24px;\n    background-color: white;\n
+        \   overflow: hidden;\n}\n\n.hourlist {\n    z-index: -900;\n    position:
+        absolute;\n    left: -24px;\n}\n\n.weekContainer {\n    page-break-after:
+        always;\n    page-break-inside: avoid;\n    padding-left:24px;\n    clear:
+        both;\n}\n    \n.hour {\n    text-align: center;\n    vertical-align: top;\n
+        \   border-top: 1px solid #B0B0B0;\n    overflow: hidden;\n    padding-top:
+        3px;\n    height: 56px;  \n    color: #656565;\n}\n\n\n.hourLine {\n   border-top:
+        1px solid #CCC;\n}\n\n.hourFirst {\n    border: 0;\n    height: 58px;  \n}\n\n\n.weekHourLine
+        {\n  position: relative;\n  border: 0 solid #CCC;\n  width: 130px;\n}\n\n.bookingDiv
+        {\n    background-color: #CCD8DF;\n    border: 1px solid #CCD8DF;\n    border-right:
+        1px solid #555;\n    border-bottom: 1px solid #555;\n    font-size:11px;\n
+        \   padding-top: 6px;\n    opacity: 0.8;\n}\n\n\n.cNone,.bookingDiv {\n  background-color:
+        #E5E5E5;\n}\n\n.occupiedBefore {\n    border-top: 2px solid #000000;\n}\n\n.occupiedAfter
+        {\n    border-bottom: 2px solid #000000;\n}\n\n.weeks { font-weight: bold;
+        font-size:12px; }\n\n.headerFirst { font-size: 11px; }\n\n.c0 { background-color:
+        #C8D5E7;}.c1 { background-color: #A0D1B7;}.c2 { background-color: #CCC8A5;}.c3
+        { background-color: #B1B88F;}.c4 { background-color: #DFB5A6;}.c5 { background-color:
+        #A0AED1;}.c6 { background-color: #D6CA87;}.c7 { background-color: #B8B7A5;}.c8
+        { background-color: #D3CEC4;}.c9 { background-color: #B1CCA0;}.c10 { background-color:
+        #A0B9AB;}.c11 { background-color: #A4A38F;}.c12 { background-color: #B6A6D1;}.c13
+        { background-color: #DFDCBB;}.c14 { background-color: #E9F2D3;}.c15 { background-color:
+        #F2DBD4;}.c16 { background-color: #DFDFD3;}.c17 { background-color: #E9E1B5;}.c18
+        { background-color: #C1A6C6;}.c19 { background-color: #FCC4DE;}.c20 { background-color:
+        #FC8E7A;}.c21 { background-color: #DBCEF5;}\n.c-55 { background-color: #CF9899;}\n.c-70
+        { background-color: #AAAAAA;}\n\n#footer, .footer2, .footer3 { top: 68px;
+        }</style>\n    \n</head>\n<body>\n\n\n<span class=\"hidden\" id=\"links_base\"
+        data-base=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0\"></span>\n<div
+        id=\"header\" class=\"ui-widget-header\">\n\n<div id=\"pageHeader\" class=\"pageHeader\">\n<a
+        href=\"/chalmers_se/db1/public/\" class=\"pageMenuLogo pageHeaderLink\">Chalmers</a><span
+        class=\"pageHeaderCrum\">&gt; Chalmers Schedule, Autumn 2011/Spring 2012</span>
+        \n\n<ul id=\"jsddm\">\n    <li id=\"pageMenuButtonItem\"><a href=\"#\" id=\"pageMenuButtonLink\"
+        class=\"pageMenu\"><span id=\"pageMenuButton\"> &nbsp; Konto <span class=\"down-arrow\">
+        &#9660;</span> &nbsp; </span></a>\n        <ul id=\"pageHeaderMenuList\" class=\"ui-state-default\">\n
+        \           \n            <li><span class=\"jsddmText\">Öppen schemavisning</span></li>\n
+        \           \n            \n            <li><hr></li>\n            \n            \n
+        \           <li><a id=\"loginbutton\" href=\"?loginpost=true\" onclick=\"javascript:updateLogin()\">Logga
+        in</a></li>\n            <li><a href=\"http://help.timeedit.se/wiki/index.php/TimeEdit_Web\"
+        target=\"_blank\">Hjälp</a></li>\n            \n            <li><a href=\"#inlineAbout\"
+        id=\"aboutbutton\">Om TimeEdit</a></li>\n            <li><a href=\"/chalmers_se/db1/?en=t\">Gå
+        till startsidan</a></li>\n            \n        </ul>\n    </li>\n</ul>\n\n<div
+        class=\"hidden\">\n<div id=\"inlineAbout\" style=\"padding: 5px;\" class=\"pageHeaderFont\">\n<div
+        class=\"aboutimage\"></div>\n<textarea id=\"abouttext\" spellcheck=\"false\"
+        \ data-url=\"/chalmers_se/db1/timeedit/p/public/serverversion\">\nWeb version:
+        TimeEdit web 3.6.6  Build: 233 Date: 20120417 1554\n</textarea>\n<div style=\"padding-top:
+        5px\">Copyright © 2009-2012 TimeEdit AB <a href=\"licenses.html\" style=\"display:block;
+        float: right\" target=\"_blank\"><span class=\"linkedtext\">Licenser</span></a></div>\n</div>\n\n<div
+        id=\"inlineSupport\" style=\"padding: 50px;\" class=\"pageHeaderFont\">\n</div>\n</div>\n\n\n</div>\n<div
+        id=\"pageHeaderOverlay\" class=\"overlay hidden\"></div>\n\t <a class=\"leftHeader
+        clickable openSearchButton\" id=\"openSearchButton\" href=\"#searchDivContent\"
+        data-objectid=\"\">\n  <span class=\"tesprite tesprite-search tespritefloatleft\"></span>\n
+        \ <span class=\"linkedtext noZoom\" style=\"margin-right:10px\">Ändra sökning</span>\t\n
+        \ 2012-03-12 - 2012-05-20 4241D\n  </a>\n        <a class=\"ui-corner-all
+        clickable noborder headlineButton\" id=\"searchMinus\" title=\"Ta bort\" data-objectid=\"\"><span
+        class=\"ui-icon ui-icon-minusthick\"></span></a>\n\t\t<a class=\"ui-corner-all
+        clickable noborder headlineButton openSearchButton\" href=\"#searchDivContent\"
+        title=\"Lägg till\"><span class=\"ui-icon ui-icon-plusthick\"></span></a>\n
+        \ <div class=\"rightHeaderContainer\"> \n     <span class=\"rightHeader clickable
+        tabSwitcher\" title=\"Anpassa\"><span class=\"tesprite tesprite-gear tespritefloatleft\"></span><span
+        class=\"linkedtext noZoom\">Anpassa</span></span>\n  </div>\n</div>\n\n<div
+        class=\"overlay\" id=\"headlineTimeOverlay\" style=\"display:none;\"></div>\n<div
+        class=\"overlay\" id=\"datePickTimeOverlay\" style=\"z-index:1300; display:none;\"></div>\n
+        \     <div id=\"dateRange\" class=\"ui-corner-all rangePickWrap smallScreenRangePick
+        hidden\" style=\"width:540px\">\n          <a class=\"txtRange-close\"></a>\n
+        \         <div class=\"quickperiodwrap\">\n          \n          <select id=\"rangeTypeSelector\"
+        class=\"ui-corner-all basicSelect\">\n                  <option value=\"0\"
+        selected>Kalender</option>\n                  <option value=\"1\">Från idag</option>\n
+        \                 <option value=\"2\">Idag till datum</option>\n          </select>\n
+        \         \n          <div class=\"hidden\"><label><input type=\"checkbox\"
+        id=\"fullweeksCheckbox\" checked=\"checked\">Utöka vald period till hela veckor</label></div>\n
+        \         \n          </div>\n          <div class=\"rangePick\" data-date=\"20120312\">\n
+        \           <div class=\"rangePickHeader hidden\">Start <span id=\"rangeStartNice\">2012-03-12</span><input
+        READONLY type=\"text\" class=\"hidden\" id=\"txtRangeAltStart\" value=\"20120312\">\n
+        \            <input type=\"button\" class=\"hidden\" id=\"rangeTypeButtonStart\"
+        value=\"Från idag\" data-first=\"Kalender\" data-second=\"Från idag\"> \n
+        \           </div>\n            <div id=\"flipStart\" data-isRel=\"f\">\n\t
+        \           <div id=\"txtRangeStart\" data-date=\"20120312\"></div>\n\t            <div
+        id=\"txtRangeRelativeStart\"><div class=\"ui-widget ui-widget-content ui-helper-clearfix
+        ui-corner-all rangeRel ui-datepicker-inline\">\n\t            <div class=\"ui-widget-header
+        ui-helper-clearfix ui-corner-all rangeTitle\">Startdatum</div><select class=\"te-ui-select
+        ui-corner-all valueselect\" id=\"periodvaluestartRange\" name=\"periodstartRange\">\n\t\t<option
+        value=\"619\" >Nu</option>\n\t\t<option value=\"0\" >Denna</option>\n\t\t<option
+        value=\"1\" >1</option>\n\t\t<option value=\"2\" >2</option>\n\t\t<option
+        value=\"3\" >3</option>\n\t\t<option value=\"4\" >4</option>\n\t\t<option
+        value=\"5\" >5</option>\n\t\t<option value=\"6\" >6</option>\n\t\t<option
+        value=\"7\" >7</option>\n\t\t<option value=\"8\" >8</option>\n\t\t<option
+        value=\"9\" >9</option>\n\t\t<option value=\"10\" >10</option>\n\t\t<option
+        value=\"11\" >11</option>\n\t\t<option value=\"12\" >12</option>\n\t<option
+        value=\"-1\" >-1</option><option value=\"-2\" >-2</option><option value=\"-3\"
+        >-3</option><option value=\"-4\" >-4</option><option value=\"-5\" >-5</option><option
+        value=\"-6\" >-6</option><option value=\"-7\" >-7</option><option value=\"-8\"
+        >-8</option><option value=\"-9\" >-9</option><option value=\"-10\" >-10</option><option
+        value=\"-11\" >-11</option><option value=\"-12\" >-12</option>\n</select>\n<select
+        class=\"te-ui-select ui-corner-all timeselect\" id=\"periodtimestartRange\"
+        name=\"periodstartRange\"><option value=\"months\"  data-plur=\"månader\"
+        data-sing=\"månad\">månader</option><option value=\"weeks\"  data-plur=\"veckor\"
+        data-sing=\"vecka\">veckor</option><option value=\"days\"  data-plur=\"dagar\"
+        data-sing=\"dag\">dagar</option><option value=\"hours\"  data-plur=\"timmar\"
+        data-sing=\"timme\">timmar</option></select>\n</div></div>\n            </div>\n
+        \         </div>\n          <div class=\"rangePick\">\n            <div class=\"rangePickHeader
+        hidden\">Slut <span id=\"rangeEndNice\">2012-05-20</span><input READONLY type=\"text\"
+        class=\"hidden\" id=\"txtRangeAltEnd\" value=\"20120519\"> \n             <input
+        type=\"button\" class=\"hidden\" id=\"rangeTypeButtonEnd\" value=\"Längd\"
+        \ data-first=\"Kalender\" data-second=\"Längd\"> \n            </div>\n            <div
+        id=\"flipEnd\" data-isRel=\"f\">\n\t            <div id=\"txtRangeEnd\" data-date=\"20120519\"></div>\n\t
+        \           <div id=\"txtRangeRelativeEnd\"><div class=\"ui-widget ui-widget-content
+        ui-helper-clearfix ui-corner-all rangeRel ui-datepicker-inline\">\n\t            <div
+        class=\"ui-widget-header ui-helper-clearfix ui-corner-all rangeTitle\">Längd</div><select
+        class=\"te-ui-select ui-corner-all valueselect\" id=\"periodvalueendRange\"
+        name=\"periodendRange\">\n\t\t<option value=\"0\" >Hel</option>\n\t\t<option
+        value=\"1\" >1</option>\n\t\t<option value=\"2\" >2</option>\n\t\t<option
+        value=\"3\" >3</option>\n\t\t<option value=\"4\" >4</option>\n\t\t<option
+        value=\"5\" >5</option>\n\t\t<option value=\"6\" >6</option>\n\t\t<option
+        value=\"7\" >7</option>\n\t\t<option value=\"8\" >8</option>\n\t\t<option
+        value=\"9\" >9</option>\n\t\t<option value=\"10\" >10</option>\n\t\t<option
+        value=\"11\" >11</option>\n\t\t<option value=\"12\" >12</option>\n\t\n</select>\n<select
+        class=\"te-ui-select ui-corner-all timeselect\" id=\"periodtimeendRange\"
+        name=\"periodendRange\"><option value=\"months\"  data-plur=\"månader\" data-sing=\"månad\">månader</option><option
+        value=\"weeks\"  data-plur=\"veckor\" data-sing=\"vecka\">veckor</option><option
+        value=\"days\"  data-plur=\"dagar\" data-sing=\"dag\">dagar</option><option
+        value=\"hours\"  data-plur=\"timmar\" data-sing=\"timme\">timmar</option></select>\n</div></div>\n
+        \           </div>\n          </div>\n         <br class=\"clearBoth\">\n
+        \        <div class=\"rangeButtons\">\n             <div style=\"float:right\">\n
+        \        \t    <input type=\"button\" id=\"changeRangeButton\" value=\"OK\">\n
+        \            </div>\n\t\t\t\t\tYttre datumgränser 2011-08-15 - 2012-06-30\n
+        \        </div>\n      </div>\n\n<div id=\"headerPadder\" class=\"clearBoth\"
+        style=\"height:67px\">&nbsp;</div>\n\n<div id=\"ajaxError\" class=\"hidden\"></div>\n\n\n\n\n<span
+        id=\"linksdata\" \ndata-linksbase=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0\"
+        \ndata-sid=\"3\"\ndata-lang=\"sv\"\ndata-startLimit=\"20110815\"\ndata-endLimit=\"20120630\"\ndata-timeStep=\"\"\ndata-urltitle=\"
+        4241D\" \ndata-SaveScheduleName=\"Ange namnet för att spara detta schema\"\ndata-RemoveSchedule=\"Vill
+        du ta bort detta schema från din lista med sparade schema?\"\ndata-remove=\"Ta
+        bort\"\ndata-freeresources=\"lediga resurser\"\ndata-searchids=\"192324.186\"
+        \ndata-searchnames=\"4241D\" \nclass=\"hidden\"></span>\n\n<div id=\"contents\">\n\n\n\n\n\n<div
+        id=\"datepicker\"></div>\n<div class=\"weekContainer\">\n  <div class=\"weekDay\"
+        style=\"z-index: 800\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 11</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Måndag&nbsp;12/3</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120312\" style=\"height: 600px;\">\n        \n<div style=\"top:
+        0px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable
+        \ c5\" data-id=\"190830\" onclick=\"openRes('190830', this,'&step=0')\" title=\"
+        2012-03-12 08:00 - 11:45 Samhällsplanering, 4241D, TKATK-3 ID 190830\"><div
+        class=\"c \">Samhällsplanering</div><div class=\"c \">4241D</div><div class=\"c
+        \">TKATK-3</div>\n\n</div>\n          <div style=\"top: 217px; left: 104px;\"
+        class=\"timeDiv\">11:45</div><div style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div>
+        \n        \n<div style=\"top: 315px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182114\" onclick=\"openRes('182114',
+        this,'&step=0')\" title=\" 2012-03-12 13:15 - 17:00 Byggnad och klimat, 4228,
+        4241D, TKATK-2 ID 182114\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 799\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        11</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;13/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120313\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 315px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"190981\" onclick=\"openRes('190981',
+        this,'&step=0')\" title=\" 2012-03-13 13:15 - 17:00 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1 ID 190981\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 798\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        11</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;14/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120314\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 60px; left: 0px; width: 126px; height: 172px;\"
+        class=\"bookingDiv clickable  c0\" data-id=\"183054\" onclick=\"openRes('183054',
+        this,'&step=0')\" title=\" 2012-03-14 09:00 - 12:00 Arkitektur och teknikhistoria,
+        4241D, TKATK-2 ID 183054\"><div class=\"c \">Arkitektur och teknikhistoria</div><div
+        class=\"c \">4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div
+        style=\"top: 232px; left: 104px;\" class=\"timeDiv\">12:00</div><div style=\"top:
+        53px; left: 3px;\" class=\"timeDiv\">09:00</div> \n        \n<div style=\"top:
+        315px; left: 0px; width: 126px; height: 157px;\" class=\"bookingDiv clickable
+        \ c4\" data-id=\"191798\" onclick=\"openRes('191798', this,'&step=0')\" title=\"
+        2012-03-14 13:15 - 16:00 Rum och geometri, 4218, 4223, 4241D, TKATK-1, Inlämning
+        16.00 ID 191798\"><div class=\"c \">Rum och geometri</div><div class=\"c \">4218,
+        4223, 4241D</div><div class=\"c \">TKATK-1</div><div class=\"c \">Inlämning
+        16.00</div>\n\n</div>\n          <div style=\"top: 472px; left: 104px;\" class=\"timeDiv\">16:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 797\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        11</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;15/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120315\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182115\" onclick=\"openRes('182115',
+        this,'&step=0')\" title=\" 2012-03-15 08:00 - 11:45 Byggnad och klimat, 4228,
+        4241D, TKATK-2, Handledning ID 182115\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div><div class=\"c
+        \">Handledning</div>\n\n</div>\n          <div style=\"top: 217px; left: 104px;\"
+        class=\"timeDiv\">11:45</div><div style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div>
+        \n        \n<div style=\"top: 315px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182116\" onclick=\"openRes('182116',
+        this,'&step=0')\" title=\" 2012-03-15 13:15 - 17:00 Byggnad och klimat, 4228,
+        4241D, TKATK-2 ID 182116\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 796\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        11</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;16/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120316\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 315px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"190983\" onclick=\"openRes('190983',
+        this,'&step=0')\" title=\" 2012-03-16 13:15 - 17:00 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1, Handledning ID 190983\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div><div class=\"c
+        \">Handledning</div>\n\n</div>\n          <div style=\"top: 532px; left: 104px;\"
+        class=\"timeDiv\">17:00</div><div style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div>
+        \n    </div>\n  </div>\n    <br class=\"clearBoth\">\n  <div class=\"weekDay\"
+        style=\"z-index: 795\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 12</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Måndag&nbsp;19/3</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120319\" style=\"height: 600px;\">\n        \n<div style=\"top:
+        0px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable
+        \ c4\" data-id=\"190966\" onclick=\"openRes('190966', this,'&step=0')\" title=\"
+        2012-03-19 08:00 - 11:45 Rum och geometri, 4218, 4223, 4241D, TKATK-1 ID 190966\"><div
+        class=\"c \">Rum och geometri</div><div class=\"c \">4218, 4223, 4241D</div><div
+        class=\"c \">TKATK-1</div>\n\n</div>\n          <div style=\"top: 217px; left:
+        104px;\" class=\"timeDiv\">11:45</div><div style=\"top: -7px; left: 3px;\"
+        class=\"timeDiv\">08:00</div> \n        \n<div style=\"top: 315px; left: 0px;
+        width: 126px; height: 217px;\" class=\"bookingDiv clickable  c1\" data-id=\"182117\"
+        onclick=\"openRes('182117', this,'&step=0')\" title=\" 2012-03-19 13:15 -
+        17:00 Byggnad och klimat, 4228, 4241D, TKATK-2 ID 182117\"><div class=\"c
+        \">Byggnad och klimat</div><div class=\"c \">4228, 4241D</div><div class=\"c
+        \">TKATK-2</div>\n\n</div>\n          <div style=\"top: 532px; left: 104px;\"
+        class=\"timeDiv\">17:00</div><div style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div>
+        \n    </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 794\">\n
+        \   <div class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 12</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;20/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120320\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c5\" data-id=\"190840\" onclick=\"openRes('190840',
+        this,'&step=0')\" title=\" 2012-03-20 08:00 - 11:45 Samhällsplanering, 4241D,
+        TKATK-3 ID 190840\"><div class=\"c \">Samhällsplanering</div><div class=\"c
+        \">4241D</div><div class=\"c \">TKATK-3</div>\n\n</div>\n          <div style=\"top:
+        217px; left: 104px;\" class=\"timeDiv\">11:45</div><div style=\"top: -7px;
+        left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div style=\"top: 315px;
+        left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable  c3\"
+        data-id=\"216669\" onclick=\"openRes('216669', this,'&step=0')\" title=\"
+        2012-03-20 13:15 - 17:00 Klimatsystem, 4241D, TKATK-3 ID 216669\"><div class=\"c
+        \">Klimatsystem</div><div class=\"c \">4241D</div><div class=\"c \">TKATK-3</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 793\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        12</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;21/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120321\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 60px; left: 0px; width: 126px; height: 172px;\"
+        class=\"bookingDiv clickable  c0\" data-id=\"183055\" onclick=\"openRes('183055',
+        this,'&step=0')\" title=\" 2012-03-21 09:00 - 12:00 Arkitektur och teknikhistoria,
+        4241D, TKATK-2 ID 183055\"><div class=\"c \">Arkitektur och teknikhistoria</div><div
+        class=\"c \">4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div
+        style=\"top: 232px; left: 104px;\" class=\"timeDiv\">12:00</div><div style=\"top:
+        53px; left: 3px;\" class=\"timeDiv\">09:00</div> \n    </div>\n  </div>\n
+        \ <div class=\"weekDay\" style=\"z-index: 792\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        12</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;22/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120322\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182118\" onclick=\"openRes('182118',
+        this,'&step=0')\" title=\" 2012-03-22 08:00 - 11:45 Byggnad och klimat, 2219,
+        4215, 4241D, TKATK-2 ID 182118\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">2219, 4215, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182119\" onclick=\"openRes('182119', this,'&step=0')\"
+        title=\" 2012-03-22 13:15 - 17:00 Byggnad och klimat, 2219, 4215, 4241D, TKATK-2
+        ID 182119\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">2219,
+        4215, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div
+        style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top:
+        308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n
+        \ <div class=\"weekDay\" style=\"z-index: 791\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        12</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;23/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120323\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 315px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"198065\" onclick=\"openRes('198065',
+        this,'&step=0')\" title=\" 2012-03-23 13:15 - 17:00 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1 ID 198065\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n    <br class=\"clearBoth\">\n  <div class=\"weekDay\" style=\"z-index:
+        790\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 13</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Måndag&nbsp;26/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120326\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"190993\" onclick=\"openRes('190993',
+        this,'&step=0')\" title=\" 2012-03-26 08:00 - 11:45 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1 ID 190993\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182120\" onclick=\"openRes('182120', this,'&step=0')\"
+        title=\" 2012-03-26 13:15 - 17:00 Byggnad och klimat, 4228, 4241D, TKATK-2
+        ID 182120\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">4228,
+        4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div style=\"top:
+        532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px;
+        left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div
+        class=\"weekDay\" style=\"z-index: 789\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        13</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;27/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120327\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"190994\" onclick=\"openRes('190994',
+        this,'&step=0')\" title=\" 2012-03-27 08:00 - 11:45 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1, Projektarbete ID 190994\"><div class=\"c \">Rum och
+        geometri</div><div class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div><div
+        class=\"c \">Projektarbete</div>\n\n</div>\n          <div style=\"top: 217px;
+        left: 104px;\" class=\"timeDiv\">11:45</div><div style=\"top: -7px; left:
+        3px;\" class=\"timeDiv\">08:00</div> \n        \n<div style=\"top: 315px;
+        left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable  c4\"
+        data-id=\"190995\" onclick=\"openRes('190995', this,'&step=0')\" title=\"
+        2012-03-27 13:15 - 17:00 Rum och geometri, 4218, 4223, 4241D, TKATK-1, Projektarbete
+        ID 190995\"><div class=\"c \">Rum och geometri</div><div class=\"c \">4218,
+        4223, 4241D</div><div class=\"c \">TKATK-1</div><div class=\"c \">Projektarbete</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 788\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        13</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;28/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120328\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 60px; left: 0px; width: 126px; height: 172px;\"
+        class=\"bookingDiv clickable  c0\" data-id=\"183056\" onclick=\"openRes('183056',
+        this,'&step=0')\" title=\" 2012-03-28 09:00 - 12:00 Arkitektur och teknikhistoria,
+        4241D, TKATK-2 ID 183056\"><div class=\"c \">Arkitektur och teknikhistoria</div><div
+        class=\"c \">4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div
+        style=\"top: 232px; left: 104px;\" class=\"timeDiv\">12:00</div><div style=\"top:
+        53px; left: 3px;\" class=\"timeDiv\">09:00</div> \n    </div>\n  </div>\n
+        \ <div class=\"weekDay\" style=\"z-index: 787\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        13</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;29/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120329\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182121\" onclick=\"openRes('182121',
+        this,'&step=0')\" title=\" 2012-03-29 08:00 - 11:45 Byggnad och klimat, 4228,
+        4241D, TKATK-2 ID 182121\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182122\" onclick=\"openRes('182122', this,'&step=0')\"
+        title=\" 2012-03-29 13:15 - 17:00 Byggnad och klimat, 4228, 4241D, TKATK-2
+        ID 182122\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">4228,
+        4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div style=\"top:
+        532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px;
+        left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div
+        class=\"weekDay\" style=\"z-index: 786\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        13</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;30/3</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120330\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n    <br class=\"clearBoth\">\n  <div class=\"weekDay\"
+        style=\"z-index: 785\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 15</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Måndag&nbsp;9/4</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120409\" style=\"height: 600px;\">\n    </div>\n  </div>\n
+        \ <div class=\"weekDay\" style=\"z-index: 784\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        15</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;10/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120410\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 60px; left: 0px; width: 126px; height: 172px;\"
+        class=\"bookingDiv clickable  c2\" data-id=\"190890\" onclick=\"openRes('190890',
+        this,'&step=0')\" title=\" 2012-04-10 09:00 - 12:00 Kandidatarbete vid Arkitektur,
+        4241D, TKATK-3, Introduktion ID 190890\"><div class=\"c \">Kandidatarbete
+        vid Arkitektur</div><div class=\"c \">4241D</div><div class=\"c \">TKATK-3</div><div
+        class=\"c \">Introduktion</div>\n\n</div>\n          <div style=\"top: 232px;
+        left: 104px;\" class=\"timeDiv\">12:00</div><div style=\"top: 53px; left:
+        3px;\" class=\"timeDiv\">09:00</div> \n    </div>\n  </div>\n  <div class=\"weekDay\"
+        style=\"z-index: 783\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 15</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Onsdag&nbsp;11/4</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120411\" style=\"height: 600px;\">\n        \n<div style=\"top:
+        0px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable
+        \ c4\" data-id=\"190997\" onclick=\"openRes('190997', this,'&step=0')\" title=\"
+        2012-04-11 08:00 - 11:45 Rum och geometri, 4218, 4223, 4241D, TKATK-1, Projektarbete/handledn
+        cad ID 190997\"><div class=\"c \">Rum och geometri</div><div class=\"c \">4218,
+        4223, 4241D</div><div class=\"c \">TKATK-1</div><div class=\"c \">Projektarbete/handledn
+        cad</div>\n\n</div>\n          <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c4\" data-id=\"190998\" onclick=\"openRes('190998', this,'&step=0')\"
+        title=\" 2012-04-11 13:15 - 17:00 Rum och geometri, 4218, 4223, 4241D, TKATK-1,
+        Projektarbete/handledn cad ID 190998\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div><div class=\"c
+        \">Projektarbete/handledn cad</div>\n\n</div>\n          <div style=\"top:
+        532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px;
+        left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div
+        class=\"weekDay\" style=\"z-index: 782\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        15</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;12/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120412\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"190999\" onclick=\"openRes('190999',
+        this,'&step=0')\" title=\" 2012-04-12 08:00 - 11:45 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1, Projektarbete/handledning ID 190999\"><div class=\"c
+        \">Rum och geometri</div><div class=\"c \">4218, 4223, 4241D</div><div class=\"c
+        \">TKATK-1</div><div class=\"c \">Projektarbete/handledning</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c4\" data-id=\"191000\" onclick=\"openRes('191000', this,'&step=0')\"
+        title=\" 2012-04-12 13:15 - 17:00 Rum och geometri, 4218, 4223, 4241D, TKATK-1,
+        Projektarbete/handledning ID 191000\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div><div class=\"c
+        \">Projektarbete/handledning</div>\n\n</div>\n          <div style=\"top:
+        532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px;
+        left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div
+        class=\"weekDay\" style=\"z-index: 781\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        15</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;13/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120413\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n    <br class=\"clearBoth\">\n  <div class=\"weekDay\"
+        style=\"z-index: 780\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 16</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Måndag&nbsp;16/4</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120416\" style=\"height: 600px;\">\n        \n<div style=\"top:
+        315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable
+        \ c1\" data-id=\"182123\" onclick=\"openRes('182123', this,'&step=0')\" title=\"
+        2012-04-16 13:15 - 17:00 Byggnad och klimat, 4228, 4241D, TKATK-2 ID 182123\"><div
+        class=\"c \">Byggnad och klimat</div><div class=\"c \">4228, 4241D</div><div
+        class=\"c \">TKATK-2</div>\n\n</div>\n          <div style=\"top: 532px; left:
+        104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px; left: 3px;\"
+        class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div class=\"weekDay\"
+        style=\"z-index: 779\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 16</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Tisdag&nbsp;17/4</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120417\" style=\"height: 600px;\">\n        \n<div style=\"top:
+        0px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable
+        \ c4\" data-id=\"191001\" onclick=\"openRes('191001', this,'&step=0')\" title=\"
+        2012-04-17 08:00 - 11:45 Rum och geometri, 4218, 4223, 4241D, TKATK-1 ID 191001\"><div
+        class=\"c \">Rum och geometri</div><div class=\"c \">4218, 4223, 4241D</div><div
+        class=\"c \">TKATK-1</div>\n\n</div>\n          <div style=\"top: 217px; left:
+        104px;\" class=\"timeDiv\">11:45</div><div style=\"top: -7px; left: 3px;\"
+        class=\"timeDiv\">08:00</div> \n        \n<div style=\"top: 315px; left: 0px;
+        width: 126px; height: 217px;\" class=\"bookingDiv clickable  c4\" data-id=\"191002\"
+        onclick=\"openRes('191002', this,'&step=0')\" title=\" 2012-04-17 13:15 -
+        17:00 Rum och geometri, 4218, 4223, 4241D, TKATK-1, Inlämning 17.00 ID 191002\"><div
+        class=\"c \">Rum och geometri</div><div class=\"c \">4218, 4223, 4241D</div><div
+        class=\"c \">TKATK-1</div><div class=\"c \">Inlämning 17.00</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 778\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        16</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;18/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120418\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 60px; left: 0px; width: 126px; height: 172px;\"
+        class=\"bookingDiv clickable  c0\" data-id=\"183057\" onclick=\"openRes('183057',
+        this,'&step=0')\" title=\" 2012-04-18 09:00 - 12:00 Arkitektur och teknikhistoria,
+        4241D, TKATK-2 ID 183057\"><div class=\"c \">Arkitektur och teknikhistoria</div><div
+        class=\"c \">4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div
+        style=\"top: 232px; left: 104px;\" class=\"timeDiv\">12:00</div><div style=\"top:
+        53px; left: 3px;\" class=\"timeDiv\">09:00</div> \n    </div>\n  </div>\n
+        \ <div class=\"weekDay\" style=\"z-index: 777\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        16</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;19/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120419\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182124\" onclick=\"openRes('182124',
+        this,'&step=0')\" title=\" 2012-04-19 08:00 - 11:45 Byggnad och klimat, 4228,
+        4241D, TKATK-2 ID 182124\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182125\" onclick=\"openRes('182125', this,'&step=0')\"
+        title=\" 2012-04-19 13:15 - 17:00 Byggnad och klimat, 4228, 4241D, TKATK-2
+        ID 182125\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">4228,
+        4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div style=\"top:
+        532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px;
+        left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div
+        class=\"weekDay\" style=\"z-index: 776\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        16</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;20/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120420\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n    <br class=\"clearBoth\">\n  <div class=\"weekDay\"
+        style=\"z-index: 775\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 17</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Måndag&nbsp;23/4</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120423\" style=\"height: 600px;\">\n        \n<div style=\"top:
+        315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable
+        \ c1\" data-id=\"182126\" onclick=\"openRes('182126', this,'&step=0')\" title=\"
+        2012-04-23 13:15 - 17:00 Byggnad och klimat, 4218, 4228, 4241D, TKATK-2 ID
+        182126\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">4218,
+        4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div
+        style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top:
+        308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n
+        \ <div class=\"weekDay\" style=\"z-index: 774\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        17</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;24/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120424\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"191005\" onclick=\"openRes('191005',
+        this,'&step=0')\" title=\" 2012-04-24 08:00 - 11:45 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1, Projektarbete ID 191005\"><div class=\"c \">Rum och
+        geometri</div><div class=\"c \">4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div><div
+        class=\"c \">Projektarbete</div>\n\n</div>\n          <div style=\"top: 217px;
+        left: 104px;\" class=\"timeDiv\">11:45</div><div style=\"top: -7px; left:
+        3px;\" class=\"timeDiv\">08:00</div> \n        \n<div style=\"top: 315px;
+        left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv clickable  c4\"
+        data-id=\"191006\" onclick=\"openRes('191006', this,'&step=0')\" title=\"
+        2012-04-24 13:15 - 17:00 Rum och geometri, 4218, 4223, 4241D, TKATK-1, Projektarbete
+        ID 191006\"><div class=\"c \">Rum och geometri</div><div class=\"c \">4218,
+        4223, 4241D</div><div class=\"c \">TKATK-1</div><div class=\"c \">Projektarbete</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 773\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        17</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;25/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120425\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 772\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 17</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;26/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120426\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 771\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 17</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;27/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120427\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182127\" onclick=\"openRes('182127',
+        this,'&step=0')\" title=\" 2012-04-27 08:00 - 11:45 Byggnad och klimat, 4218,
+        4228, 4241D, TKATK-2 ID 182127\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4218, 4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182128\" onclick=\"openRes('182128', this,'&step=0')\"
+        title=\" 2012-04-27 13:15 - 17:00 Byggnad och klimat, 4218, 4228, 4241D, TKATK-2
+        ID 182128\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">4218,
+        4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div
+        style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top:
+        308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n
+        \   <br class=\"clearBoth\">\n  <div class=\"weekDay\" style=\"z-index: 770\">\n
+        \   <div class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 18</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Måndag&nbsp;30/4</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120430\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 769\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 18</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;1/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120501\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 768\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 18</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;2/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120502\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 767\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 18</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;3/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120503\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182129\" onclick=\"openRes('182129',
+        this,'&step=0')\" title=\" 2012-05-03 08:00 - 11:45 Byggnad och klimat, 4228,
+        4241D, TKATK-2 ID 182129\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182130\" onclick=\"openRes('182130', this,'&step=0')\"
+        title=\" 2012-05-03 13:15 - 17:00 Byggnad och klimat, 4228, 4241D, TKATK-2
+        ID 182130\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">4228,
+        4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div style=\"top:
+        532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px;
+        left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div
+        class=\"weekDay\" style=\"z-index: 766\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        18</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;4/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120504\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 315px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"192135\" onclick=\"openRes('192135',
+        this,'&step=0')\" title=\" 2012-05-04 13:15 - 17:00 Rum och geometri, 4218,
+        4223, 4241D, TKATK-1, Projektarbete/handledning ID 192135\"><div class=\"c
+        \">Rum och geometri</div><div class=\"c \">4218, 4223, 4241D</div><div class=\"c
+        \">TKATK-1</div><div class=\"c \">Projektarbete/handledning</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n    <br class=\"clearBoth\">\n  <div class=\"weekDay\" style=\"z-index:
+        765\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 19</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Måndag&nbsp;7/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120507\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 764\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 19</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;8/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120508\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"191012\" onclick=\"openRes('191012',
+        this,'&step=0')\" title=\" 2012-05-08 08:00 - 11:45 Rum och geometri, 4215,
+        4218, 4223, 4241D, TKATK-1 ID 191012\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4215, 4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c4\" data-id=\"191013\" onclick=\"openRes('191013', this,'&step=0')\"
+        title=\" 2012-05-08 13:15 - 17:00 Rum och geometri, 4215, 4218, 4223, 4241D,
+        TKATK-1 ID 191013\"><div class=\"c \">Rum och geometri</div><div class=\"c
+        \">4215, 4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 763\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        19</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;9/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120509\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c4\" data-id=\"191014\" onclick=\"openRes('191014',
+        this,'&step=0')\" title=\" 2012-05-09 08:00 - 11:45 Rum och geometri, 4215,
+        4218, 4223, 4241D, TKATK-1 ID 191014\"><div class=\"c \">Rum och geometri</div><div
+        class=\"c \">4215, 4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 157px;\" class=\"bookingDiv
+        clickable  c4\" data-id=\"191015\" onclick=\"openRes('191015', this,'&step=0')\"
+        title=\" 2012-05-09 13:15 - 16:00 Rum och geometri, 4215, 4218, 4223, 4241D,
+        TKATK-1 ID 191015\"><div class=\"c \">Rum och geometri</div><div class=\"c
+        \">4215, 4218, 4223, 4241D</div><div class=\"c \">TKATK-1</div>\n\n</div>\n
+        \         <div style=\"top: 472px; left: 104px;\" class=\"timeDiv\">16:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 762\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        19</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;10/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120510\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182132\" onclick=\"openRes('182132',
+        this,'&step=0')\" title=\" 2012-05-10 08:00 - 11:45 Byggnad och klimat, 4228,
+        4241D, TKATK-2 ID 182132\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182133\" onclick=\"openRes('182133', this,'&step=0')\"
+        title=\" 2012-05-10 13:15 - 17:00 Byggnad och klimat, 4228, 4241D, TKATK-2
+        ID 182133\"><div class=\"c \">Byggnad och klimat</div><div class=\"c \">4228,
+        4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n          <div style=\"top:
+        532px; left: 104px;\" class=\"timeDiv\">17:00</div><div style=\"top: 308px;
+        left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n  </div>\n  <div
+        class=\"weekDay\" style=\"z-index: 761\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        19</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;11/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120511\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n    <br class=\"clearBoth\">\n  <div class=\"weekDay\"
+        style=\"z-index: 760\">\n    <div class=\"hourlist\">\n      <div class=\"weekDayHeader
+        weekDayHeaderFirst\"><span class=\"headerFirst\">v 20</span>&nbsp;</div>\n
+        \       <div class=\"weekDiv weekDivFirst\" style=\"height: 600px;\"><div
+        class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div class=\"hour\">10</div><div
+        class=\"hour\">11</div><div class=\"hour\">12</div><div class=\"hour\">13</div><div
+        class=\"hour\">14</div><div class=\"hour\">15</div><div class=\"hour\">16</div><div
+        class=\"hour\">17</div></div>\n      </div>\n    <div class=\"weekDayHeader\"><div
+        class=\"headlinebottom2\">Måndag&nbsp;14/5</div></div>\n    <div class=\"weekDiv\"
+        data-dates=\"20120514\" style=\"height: 600px;\">\n    </div>\n  </div>\n
+        \ <div class=\"weekDay\" style=\"z-index: 759\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        20</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Tisdag&nbsp;15/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120515\" style=\"height: 600px;\">\n
+        \       \n<div style=\"top: 0px; left: 0px; width: 126px; height: 217px;\"
+        class=\"bookingDiv clickable  c1\" data-id=\"182134\" onclick=\"openRes('182134',
+        this,'&step=0')\" title=\" 2012-05-15 08:00 - 11:45 Byggnad och klimat, 4228,
+        4241D, TKATK-2 ID 182134\"><div class=\"c \">Byggnad och klimat</div><div
+        class=\"c \">4228, 4241D</div><div class=\"c \">TKATK-2</div>\n\n</div>\n
+        \         <div style=\"top: 217px; left: 104px;\" class=\"timeDiv\">11:45</div><div
+        style=\"top: -7px; left: 3px;\" class=\"timeDiv\">08:00</div> \n        \n<div
+        style=\"top: 315px; left: 0px; width: 126px; height: 217px;\" class=\"bookingDiv
+        clickable  c1\" data-id=\"182135\" onclick=\"openRes('182135', this,'&step=0')\"
+        title=\" 2012-05-15 13:15 - 17:00 Byggnad och klimat, 4228, 4241D, TKATK-2,
+        Inlämning ID 182135\"><div class=\"c \">Byggnad och klimat</div><div class=\"c
+        \">4228, 4241D</div><div class=\"c \">TKATK-2</div><div class=\"c \">Inlämning</div>\n\n</div>\n
+        \         <div style=\"top: 532px; left: 104px;\" class=\"timeDiv\">17:00</div><div
+        style=\"top: 308px; left: 3px;\" class=\"timeDiv\">13:15</div> \n    </div>\n
+        \ </div>\n  <div class=\"weekDay\" style=\"z-index: 758\">\n    <div class=\"hourlist\">\n
+        \     <div class=\"weekDayHeader weekDayHeaderFirst\"><span class=\"headerFirst\">v
+        20</span>&nbsp;</div>\n        <div class=\"weekDiv weekDivFirst\" style=\"height:
+        600px;\"><div class=\"hour hourFirst\">8</div><div class=\"hour\">9</div><div
+        class=\"hour\">10</div><div class=\"hour\">11</div><div class=\"hour\">12</div><div
+        class=\"hour\">13</div><div class=\"hour\">14</div><div class=\"hour\">15</div><div
+        class=\"hour\">16</div><div class=\"hour\">17</div></div>\n      </div>\n
+        \   <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Onsdag&nbsp;16/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120516\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 757\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 20</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Torsdag&nbsp;17/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120517\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n  <div class=\"weekDay\" style=\"z-index: 756\">\n    <div
+        class=\"hourlist\">\n      <div class=\"weekDayHeader weekDayHeaderFirst\"><span
+        class=\"headerFirst\">v 20</span>&nbsp;</div>\n        <div class=\"weekDiv
+        weekDivFirst\" style=\"height: 600px;\"><div class=\"hour hourFirst\">8</div><div
+        class=\"hour\">9</div><div class=\"hour\">10</div><div class=\"hour\">11</div><div
+        class=\"hour\">12</div><div class=\"hour\">13</div><div class=\"hour\">14</div><div
+        class=\"hour\">15</div><div class=\"hour\">16</div><div class=\"hour\">17</div></div>\n
+        \     </div>\n    <div class=\"weekDayHeader\"><div class=\"headlinebottom2\">Fredag&nbsp;18/5</div></div>\n
+        \   <div class=\"weekDiv\" data-dates=\"20120518\" style=\"height: 600px;\">\n
+        \   </div>\n  </div>\n</div>\n<div id=\"nextPage0\" class=\"skipids clearBoth\"
+        data-colorids=\"200914,200915,200949,201119,200901,200931\" style=\"display:
+        none\">\n  \t     <div title=\"Visa\" class=\"xArkitektur och teknikhistoria
+        colorInnerWrapper clickable\" onclick=\"openObject(200914, this)\"><div class=\"color
+        c0\">&nbsp;</div> Arkitektur och teknikhistoria</div>\n  \t     <div title=\"Visa\"
+        class=\"xByggnad och klimat colorInnerWrapper clickable\" onclick=\"openObject(200915,
+        this)\"><div class=\"color c1\">&nbsp;</div> Byggnad och klimat</div>\n  \t
+        \    <div title=\"Visa\" class=\"xKandidatarbete vid Arkitektur colorInnerWrapper
+        clickable\" onclick=\"openObject(200949, this)\"><div class=\"color c2\">&nbsp;</div>
+        Kandidatarbete vid Arkitektur</div>\n  \t     <div title=\"Visa\" class=\"xKlimatsystem
+        colorInnerWrapper clickable\" onclick=\"openObject(201119, this)\"><div class=\"color
+        c3\">&nbsp;</div> Klimatsystem</div>\n  \t     <div title=\"Visa\" class=\"xRum
+        och geometri colorInnerWrapper clickable\" onclick=\"openObject(200901, this)\"><div
+        class=\"color c4\">&nbsp;</div> Rum och geometri</div>\n  \t     <div title=\"Visa\"
+        class=\"xSamhällsplanering colorInnerWrapper clickable\" onclick=\"openObject(200931,
+        this)\"><div class=\"color c5\">&nbsp;</div> Samhällsplanering</div>\n</div><br
+        class=\"clearBoth\">\n<div id=\"errorPage\" style=\"display: none\"></div>\n<div
+        id=\"bottom\"></div>\n<p style=\"margin-top:0; margin-bottom:6px\"  class=\"t\">&nbsp;<span
+        class=\"tesprite tesprite-new tespriteinline tespritemiddle\"></span> Ändrade
+        inom de senaste 7 dagarna.\n</p>\n<div id=\"colorExplanation\" class=\"colorexplainwrap\">\n
+        \   <div id=\"colorExplanationInner\">\n    <div id=\"colorExplanationList\">\n
+        \ \t  <div title=\"Visa\" class=\"colorInnerWrapper\"><div class=\"color c0\">&nbsp;</div>
+        Arkitektur och teknikhistoria</div>\n  \t  <div title=\"Visa\" class=\"colorInnerWrapper\"><div
+        class=\"color c1\">&nbsp;</div> Byggnad och klimat</div>\n  \t  <div title=\"Visa\"
+        class=\"colorInnerWrapper\"><div class=\"color c2\">&nbsp;</div> Kandidatarbete
+        vid Arkitektur</div>\n  \t  <div title=\"Visa\" class=\"colorInnerWrapper\"><div
+        class=\"color c3\">&nbsp;</div> Klimatsystem</div>\n  \t  <div title=\"Visa\"
+        class=\"colorInnerWrapper\"><div class=\"color c4\">&nbsp;</div> Rum och geometri</div>\n
+        \ \t  <div title=\"Visa\" class=\"colorInnerWrapper\"><div class=\"color c5\">&nbsp;</div>
+        Samhällsplanering</div>\n  \t</div>\n  \t  <div class=\"colorInnerWrapper\">\n
+        \       <div class=\"color cNone\">&nbsp;</div> Övriga\n\t  </div>\n  \t  \n
+        \ \t  \n  </div>\n  <div class=\"colorInnerWrapper\" style=\"float:right\">
+        \       <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmcD0yMDEyMDMxMi54JTJDMjAxMjA1MTgueCZvYmplY3RzPTE5MjMyNC4xODYmb3g9MCZ0eXBlcz0wJmZlPTAmaD1mJmgyPWY_\"
+        class=\"clickable toollink\" target=\"_blank\"><span class=\"tesprite tesprite-link
+        tespriteinline\"></span> <span class=\"linkedtext noZoom\">Länk till detta
+        schema</span></a>\n         <a href=\"#printdialog\"  class=\"clickable toollink
+        printlink\"><span class=\"tesprite tesprite-printer tespriteinline\"></span>
+        <span class=\"linkedtext noZoom\">Skriv ut</span></a>\n        <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmc9Zg__\"
+        class=\"clickable toollink\"><span class=\"tesprite tesprite-page_white_text
+        tespriteinline\"></span> <span class=\"linkedtext noZoom\">Textschema</span></a>\n
+        \       <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD1mJnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmgyPWY_\"
+        class=\"clickable toollink\"><span class=\"tesprite tesprite-fullscreen tespriteinline\"></span>
+        <span class=\"linkedtext noZoom\">Helskärm</span></a>\n\n</div>\n</div>\n</div>
+        \n\n\n\n<div style=\"display:none;\" id=\"searchDiv\">\n<div id=\"searchDivContent\"><div
+        id=\"objectMover\" class=\"basketMover\"></div>\n\n<div id=\"searchColumnWrapper\"
+        class=\"searchColumnBox searchAdvancedShow\">\n<div class=\"fancyform fancysearchform\">\n\n<h2
+        class=\"ui-widget-header ui-corner-all adminFieldTableHead searchDivHeader
+        searchAdvanced\" style=\"margin-top:5px;margin-right:10px;\">Sök\n  <select
+        class=\"niceSelect ui-multiselect ui-widget ui-state-default ui-corner-all
+        \" id=\"fancytypeselector\" name=\"fancytypeselector\" onchange=\"ObjectsSearcher.fieldSetsChange();\">\n
+        \    <option value=\"182\" SELECTED>Kurs</option>\n     <option value=\"194\"
+        >Klass</option>\n     <option value=\"186\" >Lokal</option>\n     <option
+        value=\"195\" >Undergrupp</option>\n     <option value=\"188\" >Personal</option>\n
+        \    <option value=\"197\" >Utrustning</option>\n  </select>\n</h2>\n<form
+        class=\"greyPanel\" style=\"padding-bottom: 0;\" id=\"fancyformfieldsearch\"
+        name=\"fancyformfieldsearch\">  \n  <fieldset id=\"ffset182\" class=\"fancyfieldset
+        \ fancyNoBorder\" style=\"margin-top:3px\">\n  \n  <input class=\"ffinput
+        ffsearchInput\" type=\"search\" name=\"fftext\"  value=\"\" data-name=\"Fritext\"/>\n
+        \ <input class=\"ffsearchbutton objectsearchbutton\" type=\"button\" value=\"Sök
+        Kurs\">\n  <a href=\"#\" class=\"clickable hoverlink underlinedlink showFieldsLink\"
+        onclick=\"toggleFields()\">Filtrera sökning</a>\n    <div class=\"searchAdvancedFields
+        hidden\">\n             <div class=\"clearBoth\">\n      \n       <a href=\"#\"
+        data-id=\"182\" data-name=\"Kurs\" class=\"searchrescatlink underlinedlink\">Kategorischema</a>\n
+        \      &nbsp; &nbsp; &nbsp; <a href=\"#\" data-id=\"-1\" data-name=\"–\" class=\"searchseparator
+        underlinedlink\" style=\"height: 20px; display:inline-block; color: #222 !important;\">Separator</a>\n
+        \     <a href=\"#\" style=\"float: right;\" class=\"underlinedlink\" onclick=\"ObjectsSearcher.fieldSetSave();ObjectsSearcher.resetSearch();document.fancyformfieldsearch.reset();ObjectsSearcher.fieldSetLoad();ObjectsSearcher.fieldSetsChange();return
+        false;\">Återställ</a>\n    </div>\n    </div>\n  </fieldset>\n  \n  <fieldset
+        id=\"ffset194\" class=\"fancyfieldset hidden fancyNoBorder\" style=\"margin-top:3px\">\n
+        \ \n  <input class=\"ffinput ffsearchInput\" type=\"search\" name=\"fftext\"
+        \ value=\"\" data-name=\"Fritext\"/>\n  <input class=\"ffsearchbutton objectsearchbutton\"
+        type=\"button\" value=\"Sök Klass\">\n  <a href=\"#\" class=\"clickable hoverlink
+        underlinedlink showFieldsLink\" onclick=\"toggleFields()\">Filtrera sökning</a>\n
+        \   <div class=\"searchAdvancedFields hidden\">\n          <div class=\"clearBoth\">\n
+        \     \n       <a href=\"#\" data-id=\"194\" data-name=\"Klass\" class=\"searchrescatlink
+        underlinedlink\">Kategorischema</a>\n       &nbsp; &nbsp; &nbsp; <a href=\"#\"
+        data-id=\"-1\" data-name=\"–\" class=\"searchseparator underlinedlink\" style=\"height:
+        20px; display:inline-block; color: #222 !important;\">Separator</a>\n      <a
+        href=\"#\" style=\"float: right;\" class=\"underlinedlink\" onclick=\"ObjectsSearcher.fieldSetSave();ObjectsSearcher.resetSearch();document.fancyformfieldsearch.reset();ObjectsSearcher.fieldSetLoad();ObjectsSearcher.fieldSetsChange();return
+        false;\">Återställ</a>\n    </div>\n    </div>\n  </fieldset>\n  \n  <fieldset
+        id=\"ffset186\" class=\"fancyfieldset hidden fancyNoBorder\" style=\"margin-top:3px\">\n
+        \ \n  <input class=\"ffinput ffsearchInput\" type=\"search\" name=\"fftext\"
+        \ value=\"\" data-name=\"Fritext\"/>\n  <input class=\"ffsearchbutton objectsearchbutton\"
+        type=\"button\" value=\"Sök Lokal\">\n  <a href=\"#\" class=\"clickable hoverlink
+        underlinedlink showFieldsLink\" onclick=\"toggleFields()\">Filtrera sökning</a>\n
+        \   <div class=\"searchAdvancedFields hidden\">\n   \n   <div class=\"searchField
+        \">\n      <select class=\"ffinput ui-multiselect ui-widget ui-state-default
+        ui-corner-all \" data-param=\"fe\" data-tefieldkind=\"BOOLEAN\" data-name=\"CUL-lokal\"
+        name=\"186_43\" data-prefix=\"43\" id=\"ff186_43\">\n         <option selected
+        value=\"\">CUL-lokal: -</option>\n         \n          <option value=\"1\">CUL-lokal:
+        Ja</option>\n \n          <option value=\"0\">CUL-lokal: Nej</option>\n      </select>\n
+        \     </div>\n       <div class=\"searchField \">\n      <select class=\"ffinput
+        ui-multiselect ui-widget ui-state-default ui-corner-all \" data-param=\"fe\"
+        data-tefieldkind=\"INTEGER\" data-name=\"Lokalstorlek\" name=\"186_25\" data-prefix=\"25\"
+        id=\"ff186_25\">\n         <option selected value=\"\">Lokalstorlek</option>\n
+        \        \n          <option value=\"0 - 99\">Lokalstorl: 0 - 99</option>\n
+        \n          <option value=\"100 - 198\">Lokalst: 100 - 198</option>\n \n          <option
+        value=\"199 - 297\">Lokalst: 199 - 297</option>\n \n          <option value=\"298
+        - 396\">Lokalst: 298 - 396</option>\n \n          <option value=\"397 - 495\">Lokalst:
+        397 - 495</option>\n \n          <option value=\"496 - 594\">Lokalst: 496
+        - 594</option>\n \n          <option value=\"595 - 693\">Lokalst: 595 - 693</option>\n
+        \n          <option value=\"694 - 792\">Lokalst: 694 - 792</option>\n \n          <option
+        value=\"793 - 891\">Lokalst: 793 - 891</option>\n \n          <option value=\"892
+        - 990\">Lokalst: 892 - 990</option>\n      </select>\n      </div>\n         <div
+        class=\"searchField \">\n      <select class=\"fancyformfieldsearchselect
+        objectFieldsParam \" multiple size=\"14\" data-param=\"fe\" data-tefieldkind=\"CATEGORY\"
+        data-name=\"Byggnad\" name=\"186_9\" data-prefix=\"9\" id=\"ff186_9\">\n         \n
+        \         <option value=\"A-huset\">A-huset</option>\n \n          <option
+        value=\"Biblioteket Johanneberg\">Biblioteket Johanneberg</option>\n \n          <option
+        value=\"Biblioteket Lindholmen\">Biblioteket Lindholmen</option>\n \n          <option
+        value=\"CUL-Hörsalslängan\">CUL-Hörsalslängan</option>\n \n          <option
+        value=\"EDIT-Huset\">EDIT-Huset</option>\n \n          <option value=\"Fysik-Huset\">Fysik-Huset</option>\n
+        \n          <option value=\"I-Linjen Vasa\">I-Linjen Vasa</option>\n \n          <option
+        value=\"Kemi-Huset\">Kemi-Huset</option>\n \n          <option value=\"Lindholmen\">Lindholmen</option>\n
+        \n          <option value=\"M-Huset\">M-Huset</option>\n \n          <option
+        value=\"Matematik-Huset\">Matematik-Huset</option>\n \n          <option value=\"Patricia
+        Lindholmen\">Patricia Lindholmen</option>\n \n          <option value=\"VoV-Huset\">VoV-Huset</option>\n
+        \     </select>\n       </div>\n         <div class=\"searchField \">\n      <select
+        class=\"fancyformfieldsearchselect objectFieldsParam \" multiple size=\"10\"
+        data-param=\"fe\" data-tefieldkind=\"CATEGORY\" data-name=\"Lokaltyp\" name=\"186_27\"
+        data-prefix=\"27\" id=\"ff186_27\">\n         \n          <option value=\"Datasal\">Datasal</option>\n
+        \n          <option value=\"Datasalar\">Datasalar</option>\n \n          <option
+        value=\"Grupprum\">Grupprum</option>\n \n          <option value=\"Grupprum
+        + Datorer\">Grupprum + Datorer</option>\n \n          <option value=\"Hörsalar\">Hörsalar</option>\n
+        \n          <option value=\"Lablokal\">Lablokal</option>\n \n          <option
+        value=\"Lektionssalar\">Lektionssalar</option>\n \n          <option value=\"Samtalsrum\">Samtalsrum</option>\n
+        \n          <option value=\"Seminarierum\">Seminarierum</option>\n      </select>\n
+        \      </div>\n         <div class=\"searchField \">\n      <select class=\"fancyformfieldsearchselect
+        objectFieldsParam \" multiple size=\"8\" data-param=\"fe\" data-tefieldkind=\"CATEGORY\"
+        data-name=\"Utrustning\" name=\"186_28\" data-prefix=\"28\" id=\"ff186_28\">\n
+        \        \n          <option value=\"Data-projektor\">Data-projektor</option>\n
+        \n          <option value=\"Krittavlor\">Krittavlor</option>\n \n          <option
+        value=\"Krittavlor hissbara\">Krittavlor hissbara</option>\n \n          <option
+        value=\"Ljudanläggning\">Ljudanläggning</option>\n \n          <option value=\"Overhead\">Overhead</option>\n
+        \n          <option value=\"Whiteboard\">Whiteboard</option>\n \n          <option
+        value=\"Whiteboard hissbara\">Whiteboard hissbara</option>\n      </select>\n
+        \      </div>\n          <div class=\"clearBoth\">\n      \n       <a href=\"#\"
+        data-id=\"186\" data-name=\"Lokal\" class=\"searchrescatlink underlinedlink\">Kategorischema</a>\n
+        \      &nbsp; &nbsp; &nbsp; <a href=\"#\" data-id=\"-1\" data-name=\"–\" class=\"searchseparator
+        underlinedlink\" style=\"height: 20px; display:inline-block; color: #222 !important;\">Separator</a>\n
+        \     <a href=\"#\" style=\"float: right;\" class=\"underlinedlink\" onclick=\"ObjectsSearcher.fieldSetSave();ObjectsSearcher.resetSearch();document.fancyformfieldsearch.reset();ObjectsSearcher.fieldSetLoad();ObjectsSearcher.fieldSetsChange();return
+        false;\">Återställ</a>\n    </div>\n    </div>\n  </fieldset>\n  \n  <fieldset
+        id=\"ffset195\" class=\"fancyfieldset hidden fancyNoBorder\" style=\"margin-top:3px\">\n
+        \ \n  <input class=\"ffinput ffsearchInput\" type=\"search\" name=\"fftext\"
+        \ value=\"\" data-name=\"Fritext\"/>\n  <input class=\"ffsearchbutton objectsearchbutton\"
+        type=\"button\" value=\"Sök Undergrupp\">\n  <a href=\"#\" class=\"clickable
+        hoverlink underlinedlink showFieldsLink\" onclick=\"toggleFields()\">Filtrera
+        sökning</a>\n    <div class=\"searchAdvancedFields hidden\">\n          <div
+        class=\"clearBoth\">\n      \n       <a href=\"#\" data-id=\"195\" data-name=\"Undergrupp\"
+        class=\"searchrescatlink underlinedlink\">Kategorischema</a>\n       &nbsp;
+        &nbsp; &nbsp; <a href=\"#\" data-id=\"-1\" data-name=\"–\" class=\"searchseparator
+        underlinedlink\" style=\"height: 20px; display:inline-block; color: #222 !important;\">Separator</a>\n
+        \     <a href=\"#\" style=\"float: right;\" class=\"underlinedlink\" onclick=\"ObjectsSearcher.fieldSetSave();ObjectsSearcher.resetSearch();document.fancyformfieldsearch.reset();ObjectsSearcher.fieldSetLoad();ObjectsSearcher.fieldSetsChange();return
+        false;\">Återställ</a>\n    </div>\n    </div>\n  </fieldset>\n  \n  <fieldset
+        id=\"ffset188\" class=\"fancyfieldset hidden fancyNoBorder\" style=\"margin-top:3px\">\n
+        \ \n  <input class=\"ffinput ffsearchInput\" type=\"search\" name=\"fftext\"
+        \ value=\"\" data-name=\"Fritext\"/>\n  <input class=\"ffsearchbutton objectsearchbutton\"
+        type=\"button\" value=\"Sök Personal\">\n  <a href=\"#\" class=\"clickable
+        hoverlink underlinedlink showFieldsLink\" onclick=\"toggleFields()\">Filtrera
+        sökning</a>\n    <div class=\"searchAdvancedFields hidden\">\n          <div
+        class=\"clearBoth\">\n      \n       <a href=\"#\" data-id=\"188\" data-name=\"Personal\"
+        class=\"searchrescatlink underlinedlink\">Kategorischema</a>\n       &nbsp;
+        &nbsp; &nbsp; <a href=\"#\" data-id=\"-1\" data-name=\"–\" class=\"searchseparator
+        underlinedlink\" style=\"height: 20px; display:inline-block; color: #222 !important;\">Separator</a>\n
+        \     <a href=\"#\" style=\"float: right;\" class=\"underlinedlink\" onclick=\"ObjectsSearcher.fieldSetSave();ObjectsSearcher.resetSearch();document.fancyformfieldsearch.reset();ObjectsSearcher.fieldSetLoad();ObjectsSearcher.fieldSetsChange();return
+        false;\">Återställ</a>\n    </div>\n    </div>\n  </fieldset>\n  \n  <fieldset
+        id=\"ffset197\" class=\"fancyfieldset hidden fancyNoBorder\" style=\"margin-top:3px\">\n
+        \ \n  <input class=\"ffinput ffsearchInput\" type=\"search\" name=\"fftext\"
+        \ value=\"\" data-name=\"Fritext\"/>\n  <input class=\"ffsearchbutton objectsearchbutton\"
+        type=\"button\" value=\"Sök Utrustning\">\n  <a href=\"#\" class=\"clickable
+        hoverlink underlinedlink showFieldsLink\" onclick=\"toggleFields()\">Filtrera
+        sökning</a>\n    <div class=\"searchAdvancedFields hidden\">\n                   <div
+        class=\"clearBoth\">\n      \n       <a href=\"#\" data-id=\"197\" data-name=\"Utrustning\"
+        class=\"searchrescatlink underlinedlink\">Kategorischema</a>\n       &nbsp;
+        &nbsp; &nbsp; <a href=\"#\" data-id=\"-1\" data-name=\"–\" class=\"searchseparator
+        underlinedlink\" style=\"height: 20px; display:inline-block; color: #222 !important;\">Separator</a>\n
+        \     <a href=\"#\" style=\"float: right;\" class=\"underlinedlink\" onclick=\"ObjectsSearcher.fieldSetSave();ObjectsSearcher.resetSearch();document.fancyformfieldsearch.reset();ObjectsSearcher.fieldSetLoad();ObjectsSearcher.fieldSetsChange();return
+        false;\">Återställ</a>\n    </div>\n    </div>\n  </fieldset>\n  \n</form>\n</div>\n\n<div
+        class=\"middlewrapper\">\n\t<h2 class=\"ui-widget-header ui-corner-all adminFieldTableHead
+        searchDivHeader searchAdvanced\">Sökresultat<span id=\"searchTextLegend\"
+        data-nomatches=\"\" data-result=\"\" data-search=\" (Söker)\"></span></h2>\n\t<div
+        class=\"fancyform fancyresultform\" id=\"fancyformfieldresult\">\n    \t<div
+        id=\"objectsearchresult\"></div>\n    </div>\n</div>  \n\n<div class=\"fancyform
+        fancyformInfo\" id=\"fancyformLeft\" style=\"height: 504px;\">\n<h2 class=\"ui-widget-header
+        ui-corner-all adminFieldTableHead searchDivHeader searchAdvanced\">Mina val</h2>\n<div
+        class=\"favoritecontainer\">\n<div class=\"objectbasketwrap greyPanel searchAdvanced\">\n
+        \   <div class=\"basketpadded dateRangeButton timeSelectButton clickable hoverlink\"
+        title=\"Ändra tid\"><span id=\"currentSearchPeriod\" class=\"currentSearchPeriod\">2012-03-12
+        - 2012-05-20</span> <a href=\"#\" class=\"dateRangeButton selectTimeRightButton
+        underlinedlink\">Ändra tid</a></div>\n  <div id=\"objectbaskettext\">\n  <div
+        id=\"basketSelectText\" data-select=\"Välj minst ett objekt\" data-none=\"Inga
+        valda objekt.\" class=\"emptyBasket basketpadded\">Inga valda objekt.</div>
+        \n  </div>\n  <div id=\"objectbasket\" class=\"basketpadded\" data-title=\"Ta
+        bort\"></div>\n  <div style=\"height: 35px\"></div>\n  <div class=\"rightgobutton\">\n
+        \ <a href=\"#\" class=\"leftclearbutton clickable hoverlink underlinedlink\"
+        style=\"display:block;float:left;\" onclick=\"return emptyBasket();\">Rensa</a>\n
+        \ <input id=\"objectbasketgo\" data-mandatory=\"yes\" class=\"niceButton\"
+        \ style=\"float:right;\" type=\"button\" value=\"Visa schema\">\n  </div>\n</div>\n\n
+        \ <div id=\"favoritewrap\" class=\"favoritewrap searchAdvanced\">\n\t<fieldset
+        style=\"padding:0;\"><h2 class=\"searchHeader\">Historik</h2></fieldset>\n\t<ul
+        class=\"favoritelist greyPanel favoriteitems\"><li></li></ul>\n  </div>\n</div>\n</div>\n</div>\n<br
+        class=\"clearBoth\">\n</div>\n</div><div class=\"overlay\" id=\"footerOverlay\"
+        style=\"display:none;\"></div>\n<div style=\"display:none\">\n   <form id=\"printdialog\"
+        method=\"get\" action=\"\" target=\"_blank\"  style=\"margin:15px; width:
+        410px\">\n    <h2 style=\"margin-bottom:5px\">Skriv ut</h2>\n    <p class=\"printsection\">Pappersformat<br>
+        \n    <select name=\"pdfpagesize\" id=\"pdfpagesize\" class=\"niceSelectBlack
+        ui-multiselect ui-widget ui-state-default ui-corner-all\">\n\t\t <option  value=\"A1\">A1</option>\n\t\t
+        <option  value=\"A2\">A2</option>\n\t\t <option  value=\"A3\">A3</option>\n\t\t
+        <option SELECTED value=\"A4\">A4</option>\n\t\t <option  value=\"A5\">A5</option>\n\t</select>\n\t</p>\n\t<p
+        class=\"printsection\">\n\tRiktning<br>\n    <select name=\"pdfstanding\"
+        id=\"pdfstanding\" class=\"niceSelectBlack ui-multiselect ui-widget ui-state-default
+        ui-corner-all\">\n        <option value=\"t\">Stående</option>\n\t    <option
+        selected value=\"f\">Liggande</option>\n\t</select>\n\t</p>\n\t<p class=\"printsection\">\n\tKolumner
+        per sida<br>\n    <select name=\"pdfcolumns\" id=\"pdfcolumns\" class=\"niceSelectBlack
+        ui-multiselect ui-widget ui-state-default ui-corner-all\">\n        <option
+        selected value=\"\">Standard</option>\n        <option value=\"1\">1</option>\n
+        \       <option value=\"2\">2</option>\n        <option value=\"3\">3</option>\n
+        \       <option value=\"4\">4</option>\n        <option value=\"5\">5</option>\n
+        \       <option value=\"6\">6</option>\n        <option value=\"7\">7</option>\n
+        \       <option value=\"8\">8</option>\n        <option value=\"9\">9</option>\n
+        \       <option value=\"10\">10</option>\n        <option value=\"11\">11</option>\n
+        \       <option value=\"12\">12</option>\n        <option value=\"13\">13</option>\n
+        \       <option value=\"14\">14</option>\n\t</select>\n\t</p>\n\t<p class=\"printsection\">\n\tLinjerat<br>\n
+        \   <select name=\"pdflined\" id=\"pdflined\" class=\"niceSelectBlack ui-multiselect
+        ui-widget ui-state-default ui-corner-all\">\n        <option  selected  value=\"f\">Av</option>\n
+        \       <option  value=\"t\">Linjerat</option>\n\t</select>\n\t</p>\n    <input
+        type=\"button\" id=\"pdfgenerate\" class=\"niceButtonRight\" onclick=\"updatePdflink('https://web.timeedit.se/chalmers_se/db1/public/r.pdf?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w','')\"
+        value=\"Skriv ut\">\n   </form>\n</div>\n<div class=\"footer2 ui-widget-content\"
+        id=\"footer2\" style=\"display:none\">\n  <div class=\"flinks\" id=\"sortlinksElement\"><ul
+        class=\"footerLinkList\"><div class=\"rescontenttitle\">Sortering</div>\n<li
+        class=\"boxlist ui-corner-all\">\n\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w#sortlinks'\"
+        type=\"radio\" name=\"n1\" checked=\"checked\"></div><div class=\"checkdivtext\">Tid
+        stigande</div></a>\n\n\n\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvPTM_#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvPTM_#sortlinks'\"
+        type=\"radio\" name=\"n1\" ></div><div class=\"checkdivtext\">Tid fallande</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvPTQ_#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvPTQ_#sortlinks'\"
+        type=\"radio\" name=\"n1\" ></div><div class=\"checkdivtext\">Ändrad stigande</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvPTU_#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvPTU_#sortlinks'\"
+        type=\"radio\" name=\"n1\" ></div><div class=\"checkdivtext\">Ändrad fallande</div></a>\n</li>\n</ul>\n
+        \ <ul class=\"footerLinkList\"><div class=\"rescontenttitle\">Gruppering</div>\n<li
+        class=\"boxlist ui-corner-all\">\n\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9LTE_#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9LTE_#sortlinks'\"
+        type=\"radio\" name=\"n2\" ></div><div class=\"checkdivtext\">Av</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9LQ__#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9LQ__#sortlinks'\"
+        type=\"radio\" name=\"n2\" checked=\"checked\"></div><div class=\"checkdivtext\">Dagar</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9LTI_#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9LTI_#sortlinks'\"
+        type=\"radio\" name=\"n2\" ></div><div class=\"checkdivtext\">Veckor</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9MTk0#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9MTk0#sortlinks'\"
+        type=\"radio\" name=\"n2\" ></div><div class=\"checkdivtext\">Klass</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9MTgy#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9MTgy#sortlinks'\"
+        type=\"radio\" name=\"n2\" ></div><div class=\"checkdivtext\">Kurs</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9MTg2#sortlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNvcnQ9MTg2#sortlinks'\"
+        type=\"radio\" name=\"n2\" ></div><div class=\"checkdivtext\">Lokal</div></a>\n</li>\n</ul>\n
+        \ </div>\n  <div class=\"flinks\" id=\"colorlinksElement\"><ul class=\"footerLinkList\"><div
+        class=\"rescontenttitle\">Färglägg bokningar</div>\n<li class=\"boxlist ui-corner-all\">\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPTA_#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPTA_#colorlinks'\"
+        type=\"radio\" name=\"n3\" ></div><div class=\"checkdivtext\">Standard</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPXg5MA__#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPXg5MA__#colorlinks'\"
+        type=\"radio\" name=\"n3\" ></div><div class=\"checkdivtext\">Svartvitt</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPXg5MQ__#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPXg5MQ__#colorlinks'\"
+        type=\"radio\" name=\"n3\" ></div><div class=\"checkdivtext\">Sökvillkor</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPXg5Mg__#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPXg5Mg__#colorlinks'\"
+        type=\"radio\" name=\"n3\" ></div><div class=\"checkdivtext\">Pågående</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPTE5NA__#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPTE5NA__#colorlinks'\"
+        type=\"radio\" name=\"n3\" ></div><div class=\"checkdivtext\">Klass</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w#colorlinks'\"
+        type=\"radio\" name=\"n3\" checked=\"checked\"></div><div class=\"checkdivtext\">Kurs</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPTE4Ng__#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsPTE4Ng__#colorlinks'\"
+        type=\"radio\" name=\"n3\" ></div><div class=\"checkdivtext\">Lokal</div></a>\n</li>\n\n<li
+        class=\"headlineLink\">\n<span title=\"Färglägg efter innehåll\" class=\"headlineLink\">\nFärglägg
+        efter innehåll</span></li>\n\n\n<li class=\"headlineLink\">\n<span title=\"Klass\"
+        class=\"headlineLink\">\nKlass</span></li>\n\n\n<li class=\"lefttext\">\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTk2ODYyLjE5NCZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTk2ODYyLjE5NCZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">TKATK-1</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTk2ODM5LjE5NCZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTk2ODM5LjE5NCZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">TKATK-2</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTk2ODUxLjE5NCZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTk2ODUxLjE5NCZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">TKATK-3</div></a></li>\n\n\n<li
+        class=\"headlineLink\">\n<span title=\"Kurs\" class=\"headlineLink\">\nKurs</span></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTE0LjE4MiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTE0LjE4MiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">Arkitektur
+        och teknikhistoria</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTE1LjE4MiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTE1LjE4MiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">Byggnad och
+        klimat</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTQ5LjE4MiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTQ5LjE4MiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">Kandidatarbete
+        vid Arkitektur</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAxMTE5LjE4MiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAxMTE5LjE4MiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">Klimatsystem</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTAxLjE4MiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTAxLjE4MiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">Rum och geometri</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTMxLjE4MiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMjAwOTMxLjE4MiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">Samhällsplanering</div></a></li>\n\n\n<li
+        class=\"headlineLink\">\n<span title=\"Lokal\" class=\"headlineLink\">\nLokal</span></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzEwLjE4NiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzEwLjE4NiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">2219</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzE2LjE4NiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzE2LjE4NiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">4215</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzE4LjE4NiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzE4LjE4NiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">4218</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzE5LjE4NiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzE5LjE4NiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">4223</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzIwLjE4NiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzIwLjE4NiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">4228</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzI0LjE4NiZjbD0w#colorlinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNsbz0wJTJDMTkyMzI0LjE4NiZjbD0w#colorlinks'\"
+        type=\"checkbox\" name=\"n3\" ></div><div class=\"checkdivtext\">4241D</div></a></li>\n\n</ul></div>\n
+        \ <div class=\"flinks\" id=\"mergelinksElement\"><ul class=\"footerLinkList\"><div
+        class=\"rescontenttitle\">Vyer</div>\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmc9Zg__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmc9Zg__#mergelinks'\"
+        type=\"checkbox\" name=\"n4\" checked=\"checked\"></div><div class=\"checkdivtext\">Visa
+        grafiskt schema</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnd3PWY_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnd3PWY_#mergelinks'\"
+        type=\"checkbox\" name=\"n4\" ></div><div class=\"checkdivtext\">Visa lördag
+        och söndag</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmJkPWY_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmJkPWY_#mergelinks'\"
+        type=\"checkbox\" name=\"n4\" checked=\"checked\"></div><div class=\"checkdivtext\">Ny
+        rad för varje vecka</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNlPWY_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnNlPWY_#mergelinks'\"
+        type=\"checkbox\" name=\"n4\" checked=\"checked\"></div><div class=\"checkdivtext\">Dölj
+        tomma veckor</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnBsPXQ_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnBsPXQ_#mergelinks'\"
+        type=\"checkbox\" name=\"n4\" ></div><div class=\"checkdivtext\">Linjerat</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmVzZT10#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmVzZT10#mergelinks'\"
+        type=\"checkbox\" name=\"n4\" checked=\"checked\"></div><div class=\"checkdivtext\">Visa
+        sökobjekt i schemat</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnBwPXQ_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnBwPXQ_#mergelinks'\"
+        type=\"checkbox\" name=\"n4\" ></div><div class=\"checkdivtext\">Ett schema
+        per sökvillkor</div></a></li>\n\n</ul>\n  \n  <ul class=\"footerLinkList\">\n<li
+        class=\"boxlist ui-corner-all\">\n\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9MA__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9MA__#mergelinks'\"
+        type=\"radio\" name=\"n5\" checked=\"checked\"></div><div class=\"checkdivtext\">Datumvy</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9MQ__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9MQ__#mergelinks'\"
+        type=\"radio\" name=\"n5\" ></div><div class=\"checkdivtext\">Periodvy</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9Mg__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9Mg__#mergelinks'\"
+        type=\"radio\" name=\"n5\" ></div><div class=\"checkdivtext\">Veckovy</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9Mw__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9Mw__#mergelinks'\"
+        type=\"radio\" name=\"n5\" ></div><div class=\"checkdivtext\">Månadsvy</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9NA__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmM9NA__#mergelinks'\"
+        type=\"radio\" name=\"n5\" ></div><div class=\"checkdivtext\">Årsvy</div></a>\n</li>\n<li
+        style=\"margin-top:10px;padding-left:5px\">\n  <span class=\"\" title=\"Radrubriker\">Radrubriker</span>\n<select
+        name=\"selectlinker\" onchange=\"updateSelectlinker(this)\">\n   <option SELECTED
+        value=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJm9oZT0w#mergelinks\">Timmar</option>\n
+        \  <option value=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJm9oZT0tMQ__#mergelinks\">Sökvillkor</option>\n
+        \  <option value=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJm9oZT0xOTQ_#mergelinks\">Klass</option>\n
+        \  <option value=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJm9oZT0xODI_#mergelinks\">Kurs</option>\n
+        \  <option value=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJm9oZT0xODY_#mergelinks\">Lokal</option>\n</select>\n</li>\n\n</ul>\n
+        \ <form method=\"get\" action=\"\" id=\"gsizeform\" style=\"display: inline;\">\n
+        \  <ul class=\"footerLinkListForm\">\n\t<li class=\"footerLinkSelect\">\n
+        \   Radhöjd\n    <select name=\"gheigth\" id=\"gheigth\" onchange=\"updateSizelink('https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0','#mergelinks')\">\n
+        \     <option value=\"20\">20</option><option value=\"30\">30</option><option
+        value=\"40\">40</option><option value=\"50\">50</option><option SELECTED value=\"60\">60</option><option
+        value=\"70\">70</option><option value=\"80\">80</option><option value=\"90\">90</option><option
+        value=\"100\">100</option><option value=\"110\">110</option><option value=\"120\">120</option><option
+        value=\"130\">130</option><option value=\"140\">140</option><option value=\"150\">150</option><option
+        value=\"160\">160</option><option value=\"170\">170</option><option value=\"180\">180</option><option
+        value=\"190\">190</option><option value=\"200\">200</option><option value=\"210\">210</option><option
+        value=\"220\">220</option><option value=\"230\">230</option><option value=\"240\">240</option><option
+        value=\"250\">250</option><option value=\"260\">260</option><option value=\"270\">270</option><option
+        value=\"280\">280</option><option value=\"290\">290</option><option value=\"300\">300</option><option
+        value=\"350\">350</option><option value=\"400\">400</option><option value=\"450\">450</option><option
+        value=\"500\">500</option><option value=\"550\">550</option><option value=\"600\">600</option><option
+        value=\"650\">650</option><option value=\"700\">700</option><option value=\"750\">750</option><option
+        value=\"800\">800</option><option value=\"900\">900</option><option value=\"1000\">1000</option><option
+        value=\"1100\">1100</option><option value=\"1200\">1200</option>   \n\t</select>\n\t</li>\n
+        \   <li class=\"footerLinkSelect\">\n    Kolumnbredd\n    <select name=\"gwidth\"
+        id=\"gwidth\"  onchange=\"updateSizelink('https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0','#mergelinks')\">\n
+        \     <option value=\"20\">20</option><option value=\"30\">30</option><option
+        value=\"40\">40</option><option value=\"50\">50</option><option value=\"60\">60</option><option
+        value=\"70\">70</option><option value=\"80\">80</option><option value=\"90\">90</option><option
+        value=\"100\">100</option><option value=\"110\">110</option><option value=\"120\">120</option><option
+        SELECTED value=\"130\">130</option><option value=\"140\">140</option><option
+        value=\"150\">150</option><option value=\"160\">160</option><option value=\"170\">170</option><option
+        value=\"180\">180</option><option value=\"190\">190</option><option value=\"200\">200</option><option
+        value=\"210\">210</option><option value=\"220\">220</option><option value=\"230\">230</option><option
+        value=\"240\">240</option><option value=\"250\">250</option><option value=\"260\">260</option><option
+        value=\"270\">270</option><option value=\"280\">280</option><option value=\"290\">290</option><option
+        value=\"300\">300</option><option value=\"350\">350</option><option value=\"400\">400</option><option
+        value=\"450\">450</option><option value=\"500\">500</option><option value=\"550\">550</option><option
+        value=\"600\">600</option><option value=\"650\">650</option><option value=\"700\">700</option><option
+        value=\"750\">750</option><option value=\"800\">800</option><option value=\"900\">900</option><option
+        value=\"1000\">1000</option><option value=\"1100\">1100</option><option value=\"1200\">1200</option>
+        \  \n\t</select>\n\t</li>\n\n\n<li class=\"\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w#mergelinks\"
+        class=\"ui-state-defaultOFF underlinedlink  btnormal ui-corner-all \">\nÅterställ
+        höjd och bredd</a></li>\n\n   </ul>\n   </form>\n  <ul class=\"footerLinkList
+        boxlist\">\n\n<li class=\"headlineLink\">\n<span title=\"Synliga kolumner\"
+        class=\"headlineLink\">\nSynliga kolumner</span></li>\n\n\n<li class=\"lefttext\">\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xODItMTk_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xODItMTk_#mergelinks'\"
+        type=\"checkbox\" name=\"n9\" checked=\"checked\"></div><div class=\"checkdivtext\">Kurs</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xODYtMjQ_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xODYtMjQ_#mergelinks'\"
+        type=\"checkbox\" name=\"n9\" checked=\"checked\"></div><div class=\"checkdivtext\">Lokal</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xOTQtMTc_#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xOTQtMTc_#mergelinks'\"
+        type=\"checkbox\" name=\"n9\" checked=\"checked\"></div><div class=\"checkdivtext\">Klass</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xOTMtNDQuMTk1LTM3#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xOTMtNDQuMTk1LTM3#mergelinks'\"
+        type=\"checkbox\" name=\"n9\" checked=\"checked\"></div><div class=\"checkdivtext\">Persongrupp,
+        Undergrupp</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD1mMg__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD1mMg__#mergelinks'\"
+        type=\"checkbox\" name=\"n9\" checked=\"checked\"></div><div class=\"checkdivtext\">Egen
+        text</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xOTAtNQ__#mergelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmNjaD0xOTAtNQ__#mergelinks'\"
+        type=\"checkbox\" name=\"n9\" checked=\"checked\"></div><div class=\"checkdivtext\">Typ</div></a></li>\n\n</ul>\n
+        \ </div>\n  <div class=\"flinks\" id=\"contentlinksElement\">\n<ul class=\"footerLinkList\"
+        id=\"oxFilter\"><div class=\"rescontenttitle\">Filter</div>\n\t  <li class=\"headlineLink\"><span
+        class=\"headlineLink\" title=\"Klass\">Klass</span></li>\n\t  <li class=\"clickable
+        clickableCheckbox\"><input type=\"checkbox\" id=\"oxF1\"  value=\"196862.194\">TKATK-1</li>\n\t
+        \ <li class=\"clickable clickableCheckbox\"><input type=\"checkbox\" id=\"oxF2\"
+        \ value=\"196839.194\">TKATK-2</li>\n\t  <li class=\"clickable clickableCheckbox\"><input
+        type=\"checkbox\" id=\"oxF3\"  value=\"196851.194\">TKATK-3</li>\n\t  <li
+        class=\"headlineLink\"><span class=\"headlineLink\" title=\"Kurs\">Kurs</span></li>\n\t
+        \ <li class=\"clickable clickableCheckbox\"><input type=\"checkbox\" id=\"oxF5\"
+        \ value=\"200914.182\">Arkitektur och teknikhistoria</li>\n\t  <li class=\"clickable
+        clickableCheckbox\"><input type=\"checkbox\" id=\"oxF6\"  value=\"200915.182\">Byggnad
+        och klimat</li>\n\t  <li class=\"clickable clickableCheckbox\"><input type=\"checkbox\"
+        id=\"oxF7\"  value=\"200949.182\">Kandidatarbete vid Arkitektur</li>\n\t  <li
+        class=\"clickable clickableCheckbox\"><input type=\"checkbox\" id=\"oxF8\"
+        \ value=\"201119.182\">Klimatsystem</li>\n\t  <li class=\"clickable clickableCheckbox\"><input
+        type=\"checkbox\" id=\"oxF9\"  value=\"200901.182\">Rum och geometri</li>\n\t
+        \ <li class=\"clickable clickableCheckbox\"><input type=\"checkbox\" id=\"oxF10\"
+        \ value=\"200931.182\">Samhällsplanering</li>\n  <li class=\"headlineLink\"><input
+        style=\"width:150px\" type=\"button\" onclick=\"javascript:updateFilter('https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0','#contentlinks')\"
+        value=\"Filter\"></li>  \n  </ul>\n  </div>\n  <div class=\"flinks\" id=\"adminlinksElement\"><ul
+        class=\"footerLinkList\"><div class=\"rescontenttitle\">Administratörsinställningar</div>\n
+        \ </ul></div>\n  <div class=\"flinks\" id=\"timelinksElement\"><ul class=\"footerLinkList\"><div
+        class=\"rescontenttitle\">Tid</div>\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnRjZD10#timelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnRjZD10#timelinks'\"
+        type=\"checkbox\" name=\"n10\" ></div><div class=\"checkdivtext\">Korta veckodagsnamn</div></a></li>\n\n\n<li
+        class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmRzPWY_#timelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmRzPWY_#timelinks'\"
+        type=\"checkbox\" name=\"n10\" checked=\"checked\"></div><div class=\"checkdivtext\">Kort
+        datumformat</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnN0aD10#timelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all \">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnN0aD10#timelinks'\"
+        type=\"checkbox\" name=\"n10\" ></div><div class=\"checkdivtext\">Visa endast
+        timme</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmRzaD1m#timelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmRzaD1m#timelinks'\"
+        type=\"checkbox\" name=\"n10\" checked=\"checked\"></div><div class=\"checkdivtext\">Kort
+        tidsformat</div></a></li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnN0PWY_#timelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJnN0PWY_#timelinks'\"
+        type=\"checkbox\" name=\"n10\" checked=\"checked\"></div><div class=\"checkdivtext\">Visa
+        start- och sluttider</div></a></li>\n\n</ul>\n  <form method=\"get\" action=\"\"
+        id=\"gtimeform\" style=\"display: inline;\">\n    <ul class=\"footerLinkListForm\">\n
+        \ \t<li class=\"footerLinkSelect\">Starttid\n    <select name=\"gstarttime\"
+        id=\"gstarttime\"  onchange=\"updateTimelink('https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0','#timelinks')\">\n
+        \     <option value=\"0.00\">0</option><option value=\"1.00\">1</option><option
+        value=\"2.00\">2</option><option value=\"3.00\">3</option><option value=\"4.00\">4</option><option
+        value=\"5.00\">5</option><option value=\"6.00\">6</option><option value=\"7.00\">7</option><option
+        SELECTED value=\"8.00\">8</option><option value=\"9.00\">9</option><option
+        value=\"10.00\">10</option><option value=\"11.00\">11</option><option value=\"12.00\">12</option><option
+        value=\"13.00\">13</option><option value=\"14.00\">14</option><option value=\"15.00\">15</option><option
+        value=\"16.00\">16</option><option value=\"17.00\">17</option><option value=\"18.00\">18</option><option
+        value=\"19.00\">19</option><option value=\"20.00\">20</option><option value=\"21.00\">21</option><option
+        value=\"22.00\">22</option><option value=\"23.00\">23</option><option value=\"24.00\">24</option>
+        \  \n\t</select>\n\t</li>\n\t<li class=\"footerLinkSelect\">Sluttid\n    <select
+        name=\"gendtime\" id=\"gendtime\" onchange=\"updateTimelink('https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0','#timelinks')\">\n
+        \     <option value=\"0.00\">0</option><option value=\"1.00\">1</option><option
+        value=\"2.00\">2</option><option value=\"3.00\">3</option><option value=\"4.00\">4</option><option
+        value=\"5.00\">5</option><option value=\"6.00\">6</option><option value=\"7.00\">7</option><option
+        value=\"8.00\">8</option><option value=\"9.00\">9</option><option value=\"10.00\">10</option><option
+        value=\"11.00\">11</option><option value=\"12.00\">12</option><option value=\"13.00\">13</option><option
+        value=\"14.00\">14</option><option value=\"15.00\">15</option><option value=\"16.00\">16</option><option
+        value=\"17.00\">17</option><option SELECTED value=\"18.00\">18</option><option
+        value=\"19.00\">19</option><option value=\"20.00\">20</option><option value=\"21.00\">21</option><option
+        value=\"22.00\">22</option><option value=\"23.00\">23</option><option value=\"24.00\">24</option>
+        \  \n\t</select>\n\t</li>\n\n\n<li class=\"lefttext\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmFoPWY_#timelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all \">\n<div class=\"checkdiv\"><input
+        onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmFoPWY_#timelinks'\"
+        type=\"checkbox\" name=\"n11\" checked=\"checked\"></div><div class=\"checkdivtext\">Utöka
+        start- och sluttid så att alla bokningar visas.</div></a></li>\n\n   </ul>\n
+        \  </form>\n  </div>\n  <div class=\"flinks\" id=\"stylelinksElement\"><div
+        class=\"rescontenttitle\">Stil</div>    <form method=\"get\" action=\"\" id=\"gtitle\"
+        style=\"display: inline;\"  onsubmit=\"return false\">\n   <ul class=\"footerLinkListForm\">\n\t<li>\n
+        \   Rubrik<br>\n    <input type=\"text\" name=\"title\" id=\"gtitlevalue\"
+        value=\"\" style=\"width:160px\">\n    <input type=\"button\" id=\"titlegenerate\"
+        onclick=\"updateTitlelink('https://web.timeedit.se/chalmers_se/db1/public/r.html?sid=3&amp;h=t&amp;p=20120312.x%2C20120518.x&amp;objects=192324.186&amp;ox=0&amp;types=0&amp;fe=0','#stylelinks')\"
+        title=\"Ändra rubrik\" value=\"Ändra rubrik\">\n   </li>\n   </ul>\n   </form>\n
+        \ <ul class=\"footerLinkList\">\n\n<li class=\"headlineLink\">\n<span title=\"Textstorlek\"
+        class=\"headlineLink\">\nTextstorlek</span></li>\n\n\n<li class=\"\">\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmZzPTE2#stylelinks\"
+        class=\"ui-state-defaultOFF underlinedlink  btnormal ui-corner-all \">\nÖka
+        textstorlek</a></li>\n\n\n<li class=\"\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmZzPTEx#stylelinks\"
+        class=\"ui-state-defaultOFF underlinedlink  btnormal ui-corner-all \">\nMinska
+        textstorlek</a></li>\n\n\n<li class=\"\">\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmZzPTEz#stylelinks\"
+        class=\"ui-state-defaultOFF underlinedlink  btnormal ui-corner-all \">\nÅterställ
+        textstorlek</a></li>\n\n\n<li class=\"headlineLink\">\n<span title=\"Textflöde\"
+        class=\"headlineLink\">\nTextflöde</span></li>\n\n<li class=\"boxlist ui-corner-all\">\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmJsPTA_#stylelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmJsPTA_#stylelinks'\"
+        type=\"radio\" name=\"n12\" ></div><div class=\"checkdivtext\">Visa utan radbrytningar</div></a>\n\n\n\n<a
+        href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w#stylelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  bthigh ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w#stylelinks'\"
+        type=\"radio\" name=\"n12\" checked=\"checked\"></div><div class=\"checkdivtext\">Visa
+        med radbrytningar</div></a>\n\n\n\n<a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmJsPWc_#stylelinks\"
+        class=\"ui-state-defaultOFF linkCheckbox  btnormal ui-corner-all noborder\">\n<div
+        class=\"checkdiv\"><input onClick=\"window.location='https://web.timeedit.se/chalmers_se/db1/public/r.html?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJmJsPWc_#stylelinks'\"
+        type=\"radio\" name=\"n12\" ></div><div class=\"checkdivtext\">Visa i rutnät</div></a>\n</li>\n</ul>\n
+        \ </div>\n  <div class=\"flinks\" id=\"formatlinksElement\">\n  <div class=\"rescontenttitle\">Exportera</div>\n
+        \ <ul class=\"footerLinkList\">\n  \t<li class=\"formatLinksItem \">\n\t     <a
+        href=\"#iCalDialogContent\" class=\"iCalDialog bt ui-state-defaultOFF\"><span
+        class=\"tesprite tesprite-date tespriteinline\"></span> Länk för prenumeration</a>\n\t
+        \    <div style=\"display:none\"><div id=\"iCalDialogContent\" class=\"icalhelp\">\n\t\t
+        \    <h2>Prenumeration på detta schema</h2>\n\t\t     <p>Använd följande adress
+        för att komma åt detta schema från andra program. <br> \n\t\t     Kopiera
+        och klistra in följande adress i ett kalenderprogram som stöder iCal-formatet.\n\t\t
+        \    </p>\n\t\t     \n\t\t     <input type=\"text\" value=\"https://web.timeedit.se/chalmers_se/db1/public/r.ics?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0wJng9MA__\"
+        style=\"width:100%\">\n\t     </div></div>\n     </li>\n  \t<li class=\"formatLinksItem
+        \">\n        <a href=\"#printdialog\" class=\"bt ui-state-defaultOFF bth printlink\"><span
+        class=\"tesprite tesprite-printer tespriteinline\"></span> Skriv ut</a>\n
+        \    </li>\n  \t<li class=\"formatLinksItem \">\n       <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.ics?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w\"
+        class=\"bt ui-state-defaultOFF bth\" target=\"_blank\" title=\"iCal\"><span
+        class=\"tesprite tesprite-calendar_view_month tespriteinline\"></span> iCal</a>\n
+        \    </li>\n  \t<li class=\"formatLinksItem \">\n        <a href=\"#printdialog\"
+        class=\"bt ui-state-defaultOFF bth printlink\"><span class=\"tesprite tesprite-page_white_acrobat
+        tespriteinline\"></span> PDF</a>\n     </li>\n  \t<li class=\"formatLinksItem
+        \">\n       <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.xls?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w\"
+        class=\"bt ui-state-defaultOFF bth\" target=\"_blank\" title=\"Excel\"><span
+        class=\"tesprite tesprite-page_white_excel tespriteinline\"></span> Excel</a>\n
+        \    </li>\n  \t<li class=\"formatLinksItem \">\n       <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.ods?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w\"
+        class=\"bt ui-state-defaultOFF bth\" target=\"_blank\" title=\"ODS\"><span
+        class=\"tesprite tesprite-table tespriteinline\"></span> ODS</a>\n     </li>\n
+        \ \t<li class=\"formatLinksItem \">\n       <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.txt?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w\"
+        class=\"bt ui-state-defaultOFF bth\" target=\"_blank\" title=\"Text\"><span
+        class=\"tesprite tesprite-page_white_text tespriteinline\"></span> Text</a>\n
+        \    </li>\n  \t<li class=\"formatLinksItem \">\n       <a href=\"https://web.timeedit.se/chalmers_se/db1/public/r.csv?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w\"
+        class=\"bt ui-state-defaultOFF bth\" target=\"_blank\" title=\"CSV\"><span
+        class=\"tesprite tesprite-page_white_text tespriteinline\"></span> CSV</a>\n
+        \    </li>\n  \t</ul>\n  </div>\n\n</div>\n\n<div id=\"footer\" style=\"display:none\">\n
+        <ul class=\"footerLinkList2 expBack\" id=\"footerList\">\n      <li class=\"clickable
+        exp expTab\" id=\"mergelinksElement2\" title=\"Vyer\"><span class=\"tesprite
+        tesprite-calendar_view_month tespritecenter\"></span>Vyer</li>\n      <li
+        class=\"clickable exp expTab\" id=\"colorlinksElement2\" title=\"Färg\"><span
+        class=\"tesprite tesprite-color_wheel tespritecenter\"></span>Färg</li>\n
+        \     <li class=\"clickable exp expTab\" id=\"stylelinksElement2\" title=\"Stil\"><span
+        class=\"tesprite tesprite-style tespritecenter\"></span>Stil</li>\n  <li class=\"expLine
+        expBack\"><hr class=\"hrline\"></li>\n      <li class=\"clickable exp expTab\"
+        id=\"contentlinksElement2\" title=\"Filter\"><span class=\"tesprite tesprite-content
+        tespritecenter\"></span>Filter</li>\n      <li class=\"clickable exp expTab\"
+        id=\"formatlinksElement2\" title=\"Exportera\"><span class=\"tesprite tesprite-page_white_acrobat
+        tespritecenter\"></span>Exportera</li>\n      <li class=\"clickable exp expTab\"
+        id=\"timelinksElement2\" title=\"Tid\"><span class=\"tesprite tesprite-time
+        tespritecenter\"></span>Tid</li>\n  </ul>\n  <div class=\"exp expBack\" style=\"height:100%\">&nbsp;</div>\n</div>\n<script
+        src=\"/static/201204171554233/min.js\" type=\"text/javascript\"></script>\n<script
+        type=\"text/javascript\">\nobjectSearcherFF = 'osFF/chalmers_se/db13_120';\n\ninitSwitcher('sv');\nfunction
+        initAutoPager(nr, callback) {\n\tif (!$('#bottom' + nr).offset()) {\n\t\treturn;\n\t}\n\tvar
+        pages = $('#pagesData' + nr).attr('data-pagesjson');\n\ttry {\n\t\tpages =
+        jQuery.parseJSON(pages);\n\t} catch(e) {\n\t\t$(\"#errorPage\" + nr).html('Invalid
+        auto page info.' + e).fadeIn();\n\t}\n\tvar loading = false;\n\tvar loadOK
+        = true;\n\tvar next = 0;\n\n\tfunction nextUrl() {\n\t\tvar link = $('#linksdata'
+        + nr).attr('data-linksbase');\n\t\tvar url = link.split('?');\n\t\tvar path
+        = url[1].split('&');\n\t\tif (nr == \"_o\") {\n\t\t\tsetParam(path, 'start',
+        next);\n\t\t} else {\n\t\t\tsetParam(path, 'wls', next);\n\t\t}\n\t\tif ((next
+        + pages.max) >= pages.total) {\n\t\t  setParam(path, 'end', '1');\n\t\t}\n\t\tvar
+        data = $('.skipids');\n\t\tif(data.length > 0) {\n\t      var color = $(data[data.length
+        -1]);\n\t\t  setParam(path, 'colorids', color.attr('data-colorids'));\n\t\t}\n\t\treturn
+        url[0] + '?' + path.join('&') + '&part=t&media=html';\n\t}\n\n\n\n\tfunction
+        page() {\n\t\treturn (1 + next / pages.max);\n\t}\n\n\n\n\tfunction loadCompleted(nextDiv)
+        {\n\t\t//$('#bottom' + nr).html(\" \");\n\t\tvar nextButton = $('#nextPageButton'
+        + nr);\n\t\tnextButton.html('' + nextButton.attr('data-text'));\n\t\tif (callback)
+        {\n\t\t\tcallback();\n\t\t}\n\t\tif ((next + pages.max) >= pages.total) {\n\t\t
+        \ nextButton.fadeOut();\n\t\t}\n\t\tif (!loadOK) {\n\t\t\treturn;\n\t\t}\n\t\t$('#pageLinkId'
+        + nr + page()).addClass('cur');\n\t\t$('#pagesResultText' + nr).html('Visar
+        ' + Math.max(1, pages.start) + ' - ' + Math.min(pages.total, next + (pages.max
+        - 1)) + ' av ' + pages.total);\n\t\tloading = false;\n\t}\n\n\n\n\tfunction
+        loadNext() {\n\t\tvar nextDiv = $('#nextPage' + nr + next);\n\t\tif (nextDiv.length
+        != 1) {\n\t\t\treturn;\n\t\t}\n\t\tif (loadOK) {\n\t\t\t//$('#bottom' + nr).html('<p><img
+        src=\"/static/ui/loading.gif\" alt=\"Loading...\" width=\"16\" height=\"16\">
+        Hämtar sida ' + page() + ' av ' + pages.pages + '</p>');\n\t\t\t$('#nextPageButton'
+        + nr).html('<img src=\"/static/ui/loading.gif\" alt=\"Loading...\" width=\"16\"
+        height=\"16\"> Hämtar sida ' + page());\n\t\t}\n\t\tvar url = nextUrl();\n\t\tnextDiv.load(url,
+        function(response, status, xhr) {\n\t\t\tif (xhr.status == 200) {\n\t\t\t\tloadOK
+        = true;\n\t\t        $('#colorExplanationList').append(nextDiv.find('.colorInnerWrapper'));\n\t\t\t}
+        else {\n\t\t\t\tloadOK = false;\n\t\t\t\t$(\"#errorPage\" + nr).html(\"Unable
+        to load page: \" + page() + \" (Error code:\" + xhr.status + \")\").fadeIn();\n\t\t\t}\n\t\t}).fadeIn(\"slow\",
+        function() {\n\t\t\tloadCompleted(nextDiv);\n\t\t});\n\t}\n\n\n\tfunction
+        check() {\n\t\tif (loading) {\n\t\t\treturn;\n\t\t}\n\t\tif ((next + pages.max)
+        < pages.total) {\n\t\t\tloading = true;\n\t\t\tnext += pages.max;\n\t\t\tloadNext();\n\t\t}\n\t}\n
+        \  \n   return check;\n}\n</script>\n</body>\n</html>\n"
+    http_version: 
+  recorded_at: Sat, 21 Apr 2012 14:23:54 GMT
+- request:
+    method: get
+    uri: https://web.timeedit.se/chalmers_se/db1/public/r.csv?base=c2lkPTMmaD10JnA9MjAxMjAzMTIueCUyQzIwMTIwNTE4Lngmb2JqZWN0cz0xOTIzMjQuMTg2Jm94PTAmdHlwZXM9MCZmZT0w
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*; q=0.5, application/xml'
+      Accept-Encoding:
+      - gzip, deflate
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: The request has succeeded
+    headers:
+      Server:
+      - nginx/0.7.62
+      Date:
+      - Sat, 21 Apr 2012 14:23:54 GMT
+      Content-Type:
+      - text/csv; charset=UTF-8
+      Transfer-Encoding:
+      - ''
+      - chunked
+      - chunked
+      Connection:
+      - keep-alive
+      Etag:
+      - ! '"120-1490967495-1334675755668"'
+      Vary:
+      - Accept-Charset, Accept-Encoding, Accept-Language, Accept
+      Accept-Ranges:
+      - bytes
+      Cache-Control:
+      - max-age=3, post-check=1, pre-check=2
+      X-Timeedit-Search:
+      - 1ms
+      Content-Disposition:
+      - inline; filename="TimeEdit_4241D_2012-04-21_16_23.csv"
+    body:
+      encoding: ASCII-8BIT
+      string: ! "\nTimeEdit, Chalmers\n4241D, 2012-03-12 - 2012-05-20 v 11-20 Må-Fr
+        , \nStartdatum, Starttid, Slutdatum, Sluttid, Kurs, Lokal, Klass, \"Persongrupp,
+        Undergrupp\", Egen text, Typ \n2012-03-12, 08:00, 2012-03-12, 11:45, Samhällsplanering,
+        4241D, TKATK-3, , , \n2012-03-12, 13:15, 2012-03-12, 17:00, Byggnad och klimat,
+        \"4228, 4241D\", TKATK-2, , , \n2012-03-13, 13:15, 2012-03-13, 17:00, Rum
+        och geometri, \"4218, 4223, 4241D\", TKATK-1, , , \n2012-03-14, 09:00, 2012-03-14,
+        12:00, Arkitektur och teknikhistoria, 4241D, TKATK-2, , , \n2012-03-14, 13:15,
+        2012-03-14, 16:00, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1, , Inlämning
+        16.00, \n2012-03-15, 08:00, 2012-03-15, 11:45, Byggnad och klimat, \"4228,
+        4241D\", TKATK-2, , Handledning, \n2012-03-15, 13:15, 2012-03-15, 17:00, Byggnad
+        och klimat, \"4228, 4241D\", TKATK-2, , , \n2012-03-16, 13:15, 2012-03-16,
+        17:00, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1, , Handledning, \n2012-03-19,
+        08:00, 2012-03-19, 11:45, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1,
+        , , \n2012-03-19, 13:15, 2012-03-19, 17:00, Byggnad och klimat, \"4228, 4241D\",
+        TKATK-2, , , \n2012-03-20, 08:00, 2012-03-20, 11:45, Samhällsplanering, 4241D,
+        TKATK-3, , , \n2012-03-20, 13:15, 2012-03-20, 17:00, Klimatsystem, 4241D,
+        TKATK-3, , , \n2012-03-21, 09:00, 2012-03-21, 12:00, Arkitektur och teknikhistoria,
+        4241D, TKATK-2, , , \n2012-03-22, 08:00, 2012-03-22, 11:45, Byggnad och klimat,
+        \"2219, 4215, 4241D\", TKATK-2, , , \n2012-03-22, 13:15, 2012-03-22, 17:00,
+        Byggnad och klimat, \"2219, 4215, 4241D\", TKATK-2, , , \n2012-03-23, 13:15,
+        2012-03-23, 17:00, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1, , , \n2012-03-26,
+        08:00, 2012-03-26, 11:45, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1,
+        , , \n2012-03-26, 13:15, 2012-03-26, 17:00, Byggnad och klimat, \"4228, 4241D\",
+        TKATK-2, , , \n2012-03-27, 08:00, 2012-03-27, 11:45, Rum och geometri, \"4218,
+        4223, 4241D\", TKATK-1, , Projektarbete, \n2012-03-27, 13:15, 2012-03-27,
+        17:00, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1, , Projektarbete,
+        \n2012-03-28, 09:00, 2012-03-28, 12:00, Arkitektur och teknikhistoria, 4241D,
+        TKATK-2, , , \n2012-03-29, 08:00, 2012-03-29, 11:45, Byggnad och klimat, \"4228,
+        4241D\", TKATK-2, , , \n2012-03-29, 13:15, 2012-03-29, 17:00, Byggnad och
+        klimat, \"4228, 4241D\", TKATK-2, , , \n2012-04-10, 09:00, 2012-04-10, 12:00,
+        Kandidatarbete vid Arkitektur, 4241D, TKATK-3, , Introduktion, \n2012-04-11,
+        08:00, 2012-04-11, 11:45, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1,
+        , Projektarbete/handledn cad, \n2012-04-11, 13:15, 2012-04-11, 17:00, Rum
+        och geometri, \"4218, 4223, 4241D\", TKATK-1, , Projektarbete/handledn cad,
+        \n2012-04-12, 08:00, 2012-04-12, 11:45, Rum och geometri, \"4218, 4223, 4241D\",
+        TKATK-1, , Projektarbete/handledning, \n2012-04-12, 13:15, 2012-04-12, 17:00,
+        Rum och geometri, \"4218, 4223, 4241D\", TKATK-1, , Projektarbete/handledning,
+        \n2012-04-16, 13:15, 2012-04-16, 17:00, Byggnad och klimat, \"4228, 4241D\",
+        TKATK-2, , , \n2012-04-17, 08:00, 2012-04-17, 11:45, Rum och geometri, \"4218,
+        4223, 4241D\", TKATK-1, , , \n2012-04-17, 13:15, 2012-04-17, 17:00, Rum och
+        geometri, \"4218, 4223, 4241D\", TKATK-1, , Inlämning 17.00, \n2012-04-18,
+        09:00, 2012-04-18, 12:00, Arkitektur och teknikhistoria, 4241D, TKATK-2, ,
+        , \n2012-04-19, 08:00, 2012-04-19, 11:45, Byggnad och klimat, \"4228, 4241D\",
+        TKATK-2, , , \n2012-04-19, 13:15, 2012-04-19, 17:00, Byggnad och klimat, \"4228,
+        4241D\", TKATK-2, , , \n2012-04-23, 13:15, 2012-04-23, 17:00, Byggnad och
+        klimat, \"4218, 4228, 4241D\", TKATK-2, , , \n2012-04-24, 08:00, 2012-04-24,
+        11:45, Rum och geometri, \"4218, 4223, 4241D\", TKATK-1, , Projektarbete,
+        \n2012-04-24, 13:15, 2012-04-24, 17:00, Rum och geometri, \"4218, 4223, 4241D\",
+        TKATK-1, , Projektarbete, \n2012-04-27, 08:00, 2012-04-27, 11:45, Byggnad
+        och klimat, \"4218, 4228, 4241D\", TKATK-2, , , \n2012-04-27, 13:15, 2012-04-27,
+        17:00, Byggnad och klimat, \"4218, 4228, 4241D\", TKATK-2, , , \n2012-05-03,
+        08:00, 2012-05-03, 11:45, Byggnad och klimat, \"4228, 4241D\", TKATK-2, ,
+        , \n2012-05-03, 13:15, 2012-05-03, 17:00, Byggnad och klimat, \"4228, 4241D\",
+        TKATK-2, , , \n2012-05-04, 13:15, 2012-05-04, 17:00, Rum och geometri, \"4218,
+        4223, 4241D\", TKATK-1, , Projektarbete/handledning, \n2012-05-08, 08:00,
+        2012-05-08, 11:45, Rum och geometri, \"4215, 4218, 4223, 4241D\", TKATK-1,
+        , , \n2012-05-08, 13:15, 2012-05-08, 17:00, Rum och geometri, \"4215, 4218,
+        4223, 4241D\", TKATK-1, , , \n2012-05-09, 08:00, 2012-05-09, 11:45, Rum och
+        geometri, \"4215, 4218, 4223, 4241D\", TKATK-1, , , \n2012-05-09, 13:15, 2012-05-09,
+        16:00, Rum och geometri, \"4215, 4218, 4223, 4241D\", TKATK-1, , , \n2012-05-10,
+        08:00, 2012-05-10, 11:45, Byggnad och klimat, \"4228, 4241D\", TKATK-2, ,
+        , \n2012-05-10, 13:15, 2012-05-10, 17:00, Byggnad och klimat, \"4228, 4241D\",
+        TKATK-2, , , \n2012-05-15, 08:00, 2012-05-15, 11:45, Byggnad och klimat, \"4228,
+        4241D\", TKATK-2, , , \n2012-05-15, 13:15, 2012-05-15, 17:00, Byggnad och
+        klimat, \"4228, 4241D\", TKATK-2, , Inlämning, \n"
+    http_version: 
+  recorded_at: Sat, 21 Apr 2012 14:23:54 GMT
+recorded_with: VCR 2.1.0
