@@ -48,7 +48,7 @@ module TimeEdit
     end
 
     def fetch_range(start, max)
-      data = RestClient.get(url(start, max)).detect_encoding!
+      data = RestClient.get(url(start, max))
       doc = Nokogiri::HTML(data)
 
       selectors = ".clickable2.searchObject.noexpand"
